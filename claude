@@ -1,0 +1,23 @@
+mindfulin-site/
+├── index.html
+├── assess.html
+├── learn.html
+├── solutions.html
+├── media.html
+├── shop.html
+├── organizations.html
+├── about.html
+├── needs.html
+├── sensory-regulation.html
+├── contact.html
+├── 404.html
+├── robots.txt
+├── sitemap.xml
+├── netlify.toml
+├── README.md
+├── css/
+│   └── ...
+├── js/
+│   └── ...
+└── assets/
+    └── ...
