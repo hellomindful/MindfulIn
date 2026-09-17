@@ -207,6 +207,16 @@ header.site-header {
   max-width: var(--content-max);
   margin: 0 auto;
 }
+@media (max-width: 560px) {
+  .header-inner { padding: 0.75rem var(--space-2); }
+  .brand { font-size: 1.05rem; gap: 0.5rem; }
+  .brand small { display: none; }
+  .brand img {
+    width: 38px;
+    height: 38px;
+    flex: 0 0 38px;
+  }
+}
 .brand {
   display: inline-flex;
   align-items: center;
