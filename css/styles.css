@@ -207,13 +207,26 @@ header.site-header {
   margin: 0 auto;
 }
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
   font-family: var(--font-display);
   font-size: 1.3rem;
   font-weight: 600;
   color: var(--ink);
   text-decoration: none;
+  min-height: 44px;
+  min-width: 44px;
 }
 .brand:hover { color: var(--ink); }
+.brand img {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+.brand span { display: block; }
 .brand small {
   display: block;
   font-family: var(--font-body);
@@ -585,6 +598,20 @@ footer.site-footer li { margin-bottom: 0.55rem; }
 footer.site-footer a { color: #D8DDD6; text-decoration: none; }
 footer.site-footer a:hover { color: var(--white); text-decoration: underline; }
 .footer-brand p { color: #AAB4AC; max-width: 32ch; }
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.9rem;
+}
+.footer-logo img {
+  width: 56px;
+  height: 56px;
+  flex: 0 0 56px;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+footer.site-footer .footer-logo h4 { margin: 0; }
 .footer-bottom {
   border-top: 1px solid #3B4B44;
   margin-top: var(--space-4);
