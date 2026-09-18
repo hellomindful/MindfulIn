@@ -439,6 +439,8 @@ nav.primary-nav a[aria-current="page"] {
   margin-top: var(--space-3);
   border: 1px solid var(--line);
   background: var(--line);
+  list-style: none;
+  padding: 0;
 }
 .trust-card {
   background: var(--white);
