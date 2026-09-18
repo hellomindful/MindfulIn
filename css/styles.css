@@ -358,6 +358,11 @@ nav.primary-nav a[aria-current="page"] {
   border-color: var(--light-sky);
   color: var(--ink);
 }
+.quick-link:focus-visible {
+  border-color: var(--focus);
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
 .visual-panel {
   border: 1px solid var(--line);
   background: linear-gradient(180deg, var(--white) 0%, var(--paper-alt) 100%);
