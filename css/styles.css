@@ -355,7 +355,7 @@ nav.primary-nav a[aria-current="page"] {
   font-weight: 700;
 }
 .quick-link:hover {
-  border-color: var(--ochre);
+  border-color: var(--light-sky);
   color: var(--ink);
 }
 .visual-panel {
@@ -392,7 +392,7 @@ nav.primary-nav a[aria-current="page"] {
   width: 0.45rem;
   height: 0.45rem;
   border-radius: 50%;
-  background: var(--ochre);
+  background: var(--light-sky);
 }
 .visual-stack {
   display: grid;
@@ -420,7 +420,7 @@ nav.primary-nav a[aria-current="page"] {
 .visual-meta {
   font-size: 0.8rem;
   font-weight: 700;
-  color: var(--clay);
+  color: var(--ink);
   white-space: nowrap;
 }
 .trust-strip {
@@ -449,7 +449,7 @@ nav.primary-nav a[aria-current="page"] {
   margin-bottom: 0.55rem;
   font-size: 0.75rem;
   font-weight: 700;
-  color: var(--clay);
+  color: var(--ink);
   letter-spacing: 0.01em;
 }
 .section-intro {
@@ -465,7 +465,7 @@ nav.primary-nav a[aria-current="page"] {
   gap: var(--space-3);
 }
 .highlight-card {
-  border-top: 3px solid var(--ochre);
+  border-top: 3px solid var(--light-sky);
   padding-top: 0.8rem;
 }
 .highlight-card h3 {
@@ -504,8 +504,8 @@ nav.primary-nav a[aria-current="page"] {
   padding: var(--space-3);
 }
 .compare-card.featured {
-  border-color: var(--ochre);
-  box-shadow: inset 0 0 0 1px var(--ochre);
+  border-color: var(--light-sky);
+  box-shadow: inset 0 0 0 1px var(--light-sky);
 }
 .compare-card h3 {
   max-width: none;
