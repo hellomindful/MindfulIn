@@ -802,6 +802,7 @@ footer.site-footer a:hover { color: var(--white); text-decoration: underline; }
   align-items: center;
   gap: 0.75rem;
   margin-bottom: 0.9rem;
+  text-decoration: none;
 }
 .footer-logo img {
   width: 56px;
