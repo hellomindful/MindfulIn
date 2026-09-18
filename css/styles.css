@@ -763,7 +763,8 @@ legend { font-weight: 700; padding: 0 0.4rem; }
   font-size: 0.72rem;
   font-weight: 700;
   color: var(--ink);
-  border: 1px dashed var(--ink);
+  border: 1px dashed var(--light-sky);
+  background: var(--paper-alt);
   padding: 0.15em 0.5em;
   border-radius: var(--radius);
   margin-left: 0.5em;
