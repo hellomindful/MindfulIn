@@ -757,8 +757,8 @@ legend { font-weight: 700; padding: 0 0.4rem; }
   display: inline-block;
   font-size: 0.72rem;
   font-weight: 700;
-  color: var(--clay);
-  border: 1px dashed var(--clay);
+  color: var(--ink);
+  border: 1px dashed var(--ink);
   padding: 0.15em 0.5em;
   border-radius: var(--radius);
   margin-left: 0.5em;
