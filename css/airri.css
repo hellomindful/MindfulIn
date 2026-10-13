@@ -1,0 +1,52 @@
+.airri-hub { --airri-lilac: #efefff; --airri-sky: #e3f5fc; --airri-muted: #514a69; }
+.airri-hub [hidden] { display: none !important; }
+.airri-hub section[id] { scroll-margin-top: 110px; }
+.airri-hero { background: var(--airri-sky); padding: 5rem 0; }
+.airri-hero-grid { display: grid; grid-template-columns: 1.25fr 1fr; gap: 5rem; align-items: center; }
+.airri-hero h1 { font-size: clamp(2.6rem, 5vw, 4.6rem); max-width: 17ch; letter-spacing: -.035em; }
+.airri-hero .lede { max-width: 40ch; font-size: 1.3rem; }
+.airri-hero .btn-row { margin-top: 2rem; }
+.airri-map { background: white; border: 1px solid var(--line); border-radius: 24px 24px 24px 4px; padding: 2rem; }
+.airri-map ol { list-style: none; margin: .4rem 0 2rem; padding: 0; }
+.airri-map li { position: relative; padding: 0 0 1.5rem 2rem; margin: 0; border-left: 2px solid var(--line); }
+.airri-map li::before { content: ''; width: 12px; height: 12px; border-radius: 50%; background: var(--ink); position: absolute; top: .4rem; left: -7px; }
+.airri-map li:last-child { padding-bottom: 0; border-color: transparent; }
+.airri-map li:last-child::before { background: var(--ochre); box-shadow: 0 0 0 5px var(--airri-sky); }
+.airri-map strong, .airri-map span:not(.eyebrow) { display: block; }
+.airri-map li strong { font-size: 1.18rem; }
+.airri-map li span { color: var(--airri-muted); font-size: .96rem; }
+.airri-mesh { margin: 0; border-top: 1px solid var(--line); padding-top: 1rem; font-size: .92rem; }
+.airri-section-nav { border-bottom: 1px solid var(--line); }
+.airri-section-nav .wrap { display: flex; flex-wrap: wrap; gap: .5rem 2rem; padding-top: .7rem; padding-bottom: .7rem; }
+.airri-section-nav a { padding: .5rem 0; font-weight: 700; }
+.airri-hub h2 { max-width: 25ch; }
+.airri-offers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.3rem; margin-top: 2rem; }
+.airri-offer { border: 1px solid var(--line); border-radius: 8px; padding: 1.8rem; display: flex; flex-direction: column; align-items: flex-start; }
+.airri-offer-featured { background: var(--airri-lilac); border: 2px solid var(--ink); }
+.airri-offer .btn { margin-top: auto; }
+.airri-offer .btn + p { margin: .8rem 0 0; }
+.airri-price { font-size: 1.75rem; font-family: var(--font-display); }
+.airri-status { font-size: .78rem; font-weight: 700; color: var(--airri-muted); display: block; margin-bottom: .8rem; }
+.airri-library-note { margin: 1.5rem 0 0; max-width: 85ch; }
+.airri-library { background: var(--airri-lilac); }
+.airri-library-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
+.airri-filters { display: grid; grid-template-columns: 1.3fr 1fr auto; align-items: end; gap: 1rem; margin: 1.5rem 0; }
+.airri-filters input { font: inherit; padding: .75em .85em; border: 1px solid var(--line); border-radius: 3px; min-width: 0; width: 100%; color: var(--ink); }
+.airri-filters select { width: 100%; min-width: 0; }
+.airri-collections { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.airri-collection { background: white; padding: 1.7rem; border: 1px solid var(--line); border-radius: 8px; display: flex; flex-direction: column; align-items: flex-start; }
+.airri-collection h3 { max-width: none; font-size: 1.5rem; }
+.airri-topics { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem; }
+.airri-topics li { margin: 0; background: var(--airri-sky); padding: .3rem .65rem; border-radius: 4px; font-size: .9rem; }
+.airri-collection > a { margin-top: auto; padding-top: .8rem; font-weight: 700; }
+.airri-outcomes { list-style: none; padding: 0; }
+.airri-outcomes li { padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.airri-outcomes li:first-child { padding-top: 0; }
+.airri-outcomes strong { display: block; }
+.airri-custom { background: var(--airri-sky); }
+.airri-custom form { background: white; padding: 2rem; border: 1px solid var(--line); border-radius: 8px; }
+.airri-consent { font-size: .9rem; }
+.airri-consent input { width: 1.1rem; height: 1.1rem; vertical-align: middle; margin-right: .3rem; }
+.airri-faq { max-width: 850px; }
+@media (max-width: 1000px) { .airri-hero-grid { gap: 2rem; } .airri-offers { grid-template-columns: 1fr; } .airri-offer { padding: 1.5rem; } }
+@media (max-width: 720px) { .airri-hero { padding: 3rem 0; } .airri-hero-grid, .airri-library-heading, .airri-collections, .airri-filters { grid-template-columns: 1fr; gap: 1.2rem; } .airri-map, .airri-custom form { padding: 1.3rem; } .airri-section-nav .wrap { gap: .3rem 1.2rem; } .airri-collection { padding: 1.3rem; } }

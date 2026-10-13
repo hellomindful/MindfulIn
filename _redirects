@@ -2,3 +2,7 @@
 /shop-mindfulspc  https://www.mindfulspc.com  301
 /consulting  /consulting.html  200
 /consulting/  /consulting.html  200
+
+/airri /airri.html 200
+/airri/ /airri.html 200
+/airri-thank-you /airri-thank-you.html 200
