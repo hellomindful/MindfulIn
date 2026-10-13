@@ -1,6 +1,7 @@
 /links https://mindful-links.netlify.app/ 200!
 /links/ https://mindful-links.netlify.app/ 200!
 /links/* https://mindful-links.netlify.app/:splat 200!
+/links.css https://mindful-links.netlify.app/links.css 200!
 /audit https://mindful-offers.netlify.app/sensory/ 200!
 /audit/ https://mindful-offers.netlify.app/sensory/ 200!
 /audit/* https://mindful-offers.netlify.app/sensory/:splat 200!
