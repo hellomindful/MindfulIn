@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.mindfulin.com/index.html</loc></url>
-  <url><loc>https://www.mindfulin.com/assess.html</loc></url>
-  <url><loc>https://www.mindfulin.com/learn.html</loc></url>
-  <url><loc>https://www.mindfulin.com/solutions.html</loc></url>
-  <url><loc>https://www.mindfulin.com/media.html</loc></url>
-  <url><loc>https://www.mindfulin.com/shop.html</loc></url>
-  <url><loc>https://www.mindfulin.com/organizations.html</loc></url>
-  <url><loc>https://mindfulin.com/consulting</loc></url>
-  <url><loc>https://www.mindfulin.com/about.html</loc></url>
-  <url><loc>https://www.mindfulin.com/needs.html</loc></url>
-  <url><loc>https://www.mindfulin.com/needs/sensory-regulation.html</loc></url>
-  <url><loc>https://www.mindfulin.com/contact.html</loc></url>
-  <url><loc>https://mindfulin.com/airri</loc></url>
+  <url><loc>https://www.mindfulin.com/</loc></url>
+  <url><loc>https://www.mindfulin.com/assess</loc></url>
+  <url><loc>https://www.mindfulin.com/learn</loc></url>
+  <url><loc>https://www.mindfulin.com/solutions</loc></url>
+  <url><loc>https://www.mindfulin.com/media</loc></url>
+  <url><loc>https://www.mindfulin.com/shop</loc></url>
+  <url><loc>https://www.mindfulin.com/organizations</loc></url>
+  <url><loc>https://www.mindfulin.com/consulting</loc></url>
+  <url><loc>https://www.mindfulin.com/about</loc></url>
+  <url><loc>https://www.mindfulin.com/needs</loc></url>
+  <url><loc>https://www.mindfulin.com/needs/sensory-regulation</loc></url>
+  <url><loc>https://www.mindfulin.com/contact</loc></url>
+  <url><loc>https://www.mindfulin.com/privacy</loc></url>
+  <url><loc>https://www.mindfulin.com/terms</loc></url>
+  <url><loc>https://www.mindfulin.com/accessibility</loc></url>
 </urlset>
