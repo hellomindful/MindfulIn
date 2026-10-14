@@ -22,3 +22,6 @@
 /airri /airri.html 200
 /airri/ /airri.html 200
 /airri-thank-you /airri-thank-you.html 200
+
+/o/* https://mindful-offers.netlify.app/o/:splat 302
+# TODO: Add /mantra and /partners proxies only after those offers-app pages exist and are verified.

@@ -175,12 +175,14 @@ section.tight { padding: var(--space-4) 0; }
   border-color: var(--ink);
 }
 .btn-secondary:hover { background: var(--ink); color: var(--white); }
-.btn-on-dark {
+.btn-on-dark,
+.section-ink .btn-on-dark {
   background: var(--white);
   color: var(--ink);
   border-color: var(--white);
 }
-.btn-on-dark:hover { background: var(--light-sky); }
+.btn-on-dark:hover,
+.section-ink .btn-on-dark:hover { background: var(--light-sky); color: var(--ink); }
 .btn-ghost {
   background: transparent;
   color: var(--moss);
@@ -246,6 +248,9 @@ nav.primary-nav ul {
   padding: 0;
 }
 nav.primary-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   color: var(--ink);
   text-decoration: none;
   font-size: 0.97rem;
