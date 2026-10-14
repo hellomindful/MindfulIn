@@ -1,0 +1,66 @@
+{
+  "source": "https://www.canva.com/brand/kAG3wljscEE",
+  "contactEmail": "hello@mindfulempowered.com",
+  "fonts": [
+    {
+      "role": "Title",
+      "font": "Fraunces",
+      "size": 42
+    },
+    {
+      "role": "Body",
+      "font": "Atkinson Hyperlegible",
+      "size": 16
+    },
+    {
+      "role": "Heading",
+      "font": "Bricolage Grotesque",
+      "size": 32
+    },
+    {
+      "role": "Section header",
+      "font": "Lexend Deca",
+      "size": 20
+    },
+    {
+      "role": "subtitle",
+      "font": "Bricolage Grotesque 28",
+      "size": 36
+    },
+    {
+      "role": "Subheading",
+      "font": "Lexend Deca",
+      "size": 24
+    },
+    {
+      "role": "Caption",
+      "font": "Atkinson Hyperlegible",
+      "size": 14
+    },
+    {
+      "role": "quote",
+      "font": "Alike",
+      "size": 16,
+      "italic": true
+    }
+  ],
+  "webColors": {
+    "cloud": "#FFFFFD",
+    "midnight": "#160A37",
+    "slate": "#556881",
+    "sky": "#A7DAEE",
+    "deepTeal": "#035469",
+    "mint": "#66E89D",
+    "sand": "#F5F1EB"
+  },
+  "definitions": {
+    "MESH": "Mental, Emotional, and Social Health",
+    "AIRRI": "",
+    "ALLIND": ""
+  },
+  "aboutMichelle": {
+    "photo": "/brand/michelle-swerin.jpg",
+    "alt": "Michelle Swerin smiling outdoors",
+    "credentials": "Michelle Swerin, MA, LPCC \u00b7 Instructional designer \u00b7 Minnesota"
+  }
+}

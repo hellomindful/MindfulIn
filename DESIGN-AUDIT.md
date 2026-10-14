@@ -11,6 +11,6 @@ This branch builds on PR #5 (`codex/phase1-readiness`). Review and merge that pr
 
 The badge is not in the repository HTML, scripts or styles. The live browser receives `/.netlify/scripts/hud?variant=public`, which renders iframe `nl-badge-frame` titled "Powered by Netlify". Netlify injects it outside the build.
 
-Michelle: open the **mindfulin** project, then **Project configuration → General → Powered by Netlify badge**, turn it off, and save. No account settings were changed. The setting applies on the next request without a redeploy. [Netlify's official instructions](https://docs.netlify.com/manage/projects/powered-by-netlify-badge/).
+October 14: user authorized badge removal; the mindfulin project setting was saved off in Chrome and verified. All ten owned projects were checked and are off. The setting applies on the next request without a redeploy. [Netlify's official instructions](https://docs.netlify.com/manage/projects/powered-by-netlify-badge/).
 
 Validation: link-page generation, source/routing assertions, unchanged offer/payment destinations, no remaining old logo references, no horizontal overflow at 375px, 44px touch targets, and mobile primary-navigation behavior. Review only; no form or checkout submissions.
