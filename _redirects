@@ -24,9 +24,4 @@
 /airri-thank-you /airri-thank-you.html 200
 
 /o/* https://mindful-offers.netlify.app/o/:splat 302
-/mantra https://mindful-offers.netlify.app/mantra/ 200!
-/mantra/ https://mindful-offers.netlify.app/mantra/ 200!
-/mantra/* https://mindful-offers.netlify.app/mantra/:splat 200!
-/partners https://mindful-offers.netlify.app/partners/ 200!
-/partners/ https://mindful-offers.netlify.app/partners/ 200!
-/partners/* https://mindful-offers.netlify.app/partners/:splat 200!
+# TODO: Add /mantra and /partners proxies only after those offers-app pages exist and are verified.
