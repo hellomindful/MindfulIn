@@ -1,5 +1,6 @@
 [build]
   publish = "."
+  command = "node scripts/build-links.mjs"
 
 [[headers]]
   for = "/*"
