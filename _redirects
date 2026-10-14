@@ -1,6 +1,5 @@
-/links https://mindful-offers.netlify.app/start/ 200!
-/links/ https://mindful-offers.netlify.app/start/ 200!
-/links/* https://mindful-offers.netlify.app/start/:splat 200!
+/links /links.html 200
+/links/ /links.html 200
 /audit https://mindful-offers.netlify.app/sensory/ 200!
 /audit/ https://mindful-offers.netlify.app/sensory/ 200!
 /audit/* https://mindful-offers.netlify.app/sensory/:splat 200!
