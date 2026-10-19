@@ -22,3 +22,7 @@
 /airri /airri.html 200
 /airri/ /airri.html 200
 /airri-thank-you /airri-thank-you.html 200
+
+/development-sprint /development-sprint.html 200
+/development-sprint/ /development-sprint.html 200
+/o/* https://mindful-offers.netlify.app/o/:splat 302

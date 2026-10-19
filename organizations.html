@@ -12,7 +12,7 @@
 <meta property="og:url" content="https://www.mindfulin.com/organizations">
 <meta property="og:site_name" content="Mindful:In">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/brand/favicon-32.png"><link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png"><rect width=%22100%22 height=%22100%22 rx=%2218%22 fill=%22%2320312B%22/><text x=%2250%22 y=%2268%22 font-size=%2260%22 text-anchor=%22middle%22 fill=%22%23B8813A%22 font-family=%22Georgia,serif%22>M</text></svg>">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/brand/favicon-32.png"><link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&amp;family=Karla:wght@400;500;700;800&amp;display=swap" rel="stylesheet">
@@ -31,21 +31,7 @@
     <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
       <span></span>
     </button>
-    <nav class="primary-nav" id="primary-nav" aria-label="Primary">
-            <ul>
-<li><a href="/audit/">Accessibility audits</a></li><li><a href="/impact/">Impact &amp; messaging</a></li>
-        <li><a href="/#start-here">Start Here</a></li>
-        <li><a href="/#assess-design">Assess + Design</a></li>
-        <li><a href="/#sensory-access">Sensory + Access</a></li>
-        <li><a href="/#mesh-experience">MESH + Experience</a></li>
-        <li><a href="https://mindfulspc.com">Shop</a></li>
-        <li><a href="/organizations.html">For Organizations</a></li>
-        <li><a href="/about.html">About</a></li>
-      </ul>
-      <div class="nav-cta">
-        <a class="btn btn-primary" href="/offers" data-track="header-cta-start-here">Start Here</a>
-      </div>
-    </nav>
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary"><ul><li><a href="/consulting">Organizational review</a></li><li><a href="/development-sprint">Development Sprint</a></li><li><a href="/organizations#opportunity-brief">Project brief</a></li><li><a href="https://mindfuledits.io/resources">Personal resources</a></li><li><a href="/about">About</a></li></ul></nav>
   </div>
 </header>
 <main id="main">
@@ -78,13 +64,11 @@
       <h2>Tell us what you're trying to solve</h2>
       <p>This is a low-friction, async first step — no meeting required to get started. Share what's going on and we'll follow up with the right next step, whether that's an assessment, an audit, or a direct conversation.</p>
       <p><a class="btn btn-secondary" href="https://mindfulin.kit.com/b90435bcf4" data-track="org-kit-inquiry">Submit via our Partner Inquiry form (Kit)</a></p>
-      <p class="small text-soft">Prefer to use the form on this page instead? It works too — see below.</p>
+      <p class="small text-soft">Use the project brief below, or the existing Partner Inquiry form. Please share business context only; do not include private client or patient information.</p>
     </div>
     <div><form class="stack" name="org-opportunity-brief" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-  <input type="hidden" name="form-name" value="org-opportunity-brief">
-  <p class="visually-hidden">
-    <label>Don't fill this out if you're human: <input name="bot-field"></label>
-  </p>
+  <input type="hidden" name="form-name" value="org-opportunity-brief"><input type="hidden" name="source" value="mindfulin.com"><input type="hidden" name="campaign" value=""><div class="field"><label for="org-offer">What kind of help do you need?</label><select id="org-offer" name="offer"><option value="development-sprint">Make It Usable Development Sprint</option><option value="organizational-review">Organizational review</option><option value="media-commission">Media or campaign commission</option><option value="other">Other / help me choose</option></select></div>
+  <p hidden aria-hidden="true"><label>Leave empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
   <div class="field">
     <label for="org-name">Name</label>
     <input type="text" id="org-name" name="name" required>
@@ -114,7 +98,7 @@
       <option>Not sure yet</option>
     </select>
   </div>
-  <div>
+<div class="field"><label for="org-audience">Who will use this, and what should become easier?</label><textarea id="org-audience" name="audience_outcome"></textarea></div><div class="field"><label for="org-materials">Desired deliverable and source-material links (optional)</label><textarea id="org-materials" name="deliverable_materials"></textarea></div><div class="field"><label for="org-budget">Budget range and deadline (optional)</label><input id="org-budget" name="budget_deadline"></div><div class="field"><label for="org-rights">Access needs, usage rights, and decision process (optional)</label><textarea id="org-rights" name="access_rights_approval"></textarea></div><div>
     <button class="btn btn-primary" type="submit">Tell Us What You're Trying to Solve</button>
   </div>
 </form></div>
@@ -123,14 +107,7 @@
 
 <section>
   <div class="wrap">
-    <h2>What comes next</h2>
-    <ol class="steps">
-      <li><span class="num">1</span><h4>Opportunity Brief</h4><p>You tell us the problem — async, no call needed.</p></li>
-      <li><span class="num">2</span><h4>Assessment / Audit</h4><p>We look closer, using AIRRI as needed.</p></li>
-      <li><span class="num">3</span><h4>Recommendation</h4><p>You get a clear, specific recommendation.</p></li>
-      <li><span class="num">4</span><h4>Implementation</h4><p>We help you put it in place — via ACTIVATE, ALLIND, or products.</p></li>
-      <li><span class="num">5</span><h4>Contract / License</h4><p>For scaled or ongoing work, we formalize the arrangement.</p></li>
-    </ol>
+    <h2>Choose the route that fits</h2><p>Request a scoped Development Sprint directly, choose a review to clarify priorities, or discuss ongoing support or licensing when relevant. These are alternatives, not a required sequence.</p><p>We confirm fit, capacity, price, costs, rights, and agreement before committing to delivery.</p>
   </div>
 </section>
 
@@ -146,9 +123,9 @@
             <h4>Explore</h4>
       <ul>
         <li><a href="/index.html#start-here">Start Here</a></li>
-        <li><a href="/index.html#assess-design">Assess + Design</a></li>
-        <li><a href="/index.html#sensory-access">Sensory + Access</a></li>
-        <li><a href="/index.html#mesh-experience">MESH + Experience</a></li>
+        <li><a href="/solutions">Assess + Design</a></li>
+        <li><a href="/consulting">Sensory + Access</a></li>
+        <li><a href="/organizations">MESH + Experience</a></li>
         <li><a href="/needs.html">Explore by Need</a></li>
       </ul>
     </div>

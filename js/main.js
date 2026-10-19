@@ -28,3 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// Only non-personal campaign labels are retained in the existing brief.
+(function(){var p=new URLSearchParams(location.search),f=document.forms['org-opportunity-brief'];if(!f)return;var clean=function(v){return (v||'').replace(/[^a-zA-Z0-9_. -]/g,'').slice(0,80)};if(f.elements.offer&&['development-sprint','organizational-review','media-commission','other'].includes(p.get('offer')))f.elements.offer.value=p.get('offer');if(f.elements.source)f.elements.source.value=clean(p.get('utm_source'))||'mindfulin.com';if(f.elements.campaign)f.elements.campaign.value=clean(p.get('utm_campaign'));})();
