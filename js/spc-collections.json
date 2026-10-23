@@ -79,7 +79,7 @@
       "primary": {
         "heading": "Not sure what will actually help?",
         "text": "Send a short brief and get a researched shortlist for your space, your senses and your budget.",
-        "label": "Request a Finds Edit",
+        "label": "Request Personal Curation",
         "url": "https://mindfuledits.io/personal-sourcing"
       },
       "secondary": {
@@ -119,7 +119,7 @@
         "height": 240,
         "alt": ""
       },
-      "metaDescription": "Mindful Edits personal curation: a $49 Personal Finds Edit, gift edits and pet picks, with products bought separately from their sellers.",
+      "metaDescription": "Mindful Edits personal curation: a $49 Mindful Edits Personal Curation, gift edits and pet picks, with products bought separately from their sellers.",
       "audience": "For anyone tired of scrolling: a home or workspace that needs to work better, a gift that needs to land, a pet who needs comfort, or a sensory need that generic lists miss.",
       "groups": [
         {
@@ -130,12 +130,12 @@
         {
           "key": "resource",
           "title": "Related resources",
-          "note": "These are digital products, separate from the curation services. The $49 Lighter Week Toolkit is a download, not the $49 Finds Edit."
+          "note": "These are digital products, separate from the curation services. The $49 Lighter Week Toolkit is a download, not the $49 Personal Curation."
         }
       ],
       "areas": [
         {
-          "name": "Personal Finds Edit",
+          "name": "Mindful Edits Personal Curation",
           "status": "available"
         },
         {
@@ -166,7 +166,7 @@
       "primary": {
         "heading": "Start with a brief",
         "text": "Tell us the person, the problem and the budget. The $49 fee covers the research; items are bought separately.",
-        "label": "Request a Finds Edit",
+        "label": "Request Personal Curation",
         "url": "https://mindfuledits.io/personal-sourcing"
       },
       "secondary": {
@@ -571,7 +571,7 @@
         "height": 240,
         "alt": ""
       },
-      "metaDescription": "W/ME guided mindful living: free starting tools, the $19/month ADHD W/Me Club, optional written support and free guided practices.",
+      "metaDescription": "W/ME guided mindful living: free starting tools, the $5/month ADHD W/Me Club, optional written support and free guided practices.",
       "audience": "For people who want small, steady practice without another app to keep up with. Choose what fits: free tools, a self-guided membership or personalized written support.",
       "groups": [
         {
@@ -629,7 +629,7 @@
       ],
       "primary": {
         "heading": "Keep the practice going",
-        "text": "Weekly prompts and printables by email, for $19 a month. Cancel any time.",
+        "text": "Weekly prompts and printables by email, for $5 a month. Cancel any time.",
         "label": "Join the ADHD W/Me Club",
         "url": "https://mindful-offers.netlify.app/o/adhd-with-me-club"
       },
@@ -1036,14 +1036,14 @@
   "items": [
     {
       "id": "finds-edit",
-      "name": "Personal Finds Edit",
+      "name": "Mindful Edits — Personal Curation",
       "kind": "Curation service",
       "blurb": "Send a short brief about the person, the problem and the budget. Get a researched shortlist of finds with the reasons behind each.",
       "price": "$49 sourcing fee",
       "priceNote": "items bought separately",
       "where": "Request first through Mindful Edits",
       "url": "https://mindfuledits.io/personal-sourcing",
-      "cta": "Request a Finds Edit",
+      "cta": "Request Personal Curation",
       "status": "LIVE",
       "source": "Mindful Edits request + Stripe",
       "canonical": "offers:finds-edit",
@@ -1057,10 +1057,10 @@
     },
     {
       "id": "wishkist-gift-edit",
-      "name": "WishKist Gift Edit",
+      "name": "Mindful Edits — Gift Curation",
       "kind": "Gift curation service",
       "blurb": "Tell us who the gift is for and what you want to spend. Get a short, considered list of gift ideas.",
-      "price": "$49 curation fee",
+      "price": "$97 curation fee",
       "priceNote": "gifts bought separately",
       "where": "Checkout on Mindful Offers (Stripe)",
       "url": "https://mindful-offers.netlify.app/o/wishkist-gift-edit",
@@ -1077,10 +1077,10 @@
     },
     {
       "id": "mindful-paws-picks",
-      "name": "Mindful Paws Picks",
+      "name": "Mindful Edits — Pet & Comfort Curation",
       "kind": "Pet curation service",
       "blurb": "A curated set of comfort and enrichment picks chosen for one pet and its home.",
-      "price": "$49",
+      "price": "$97",
       "priceNote": "items bought separately",
       "where": "Checkout on Mindful Offers (Stripe)",
       "url": "https://mindful-offers.netlify.app/o/mindful-paws-picks",
@@ -1098,10 +1098,10 @@
     },
     {
       "id": "wishkist-gift-planner",
-      "name": "WishKist Gift Planner",
+      "name": "Free WishKist Gift Planner",
       "kind": "Free planner",
       "blurb": "Map the people, budgets and dates before you shop.",
-      "price": "Free",
+      "price": "$0",
       "priceNote": "",
       "where": "Mindful Offers",
       "url": "https://mindful-offers.netlify.app/o/wishkist-gift-planner",
@@ -1228,7 +1228,7 @@
       "name": "ADHD Home Audit & Affirming Roadmap",
       "kind": "Personalized review",
       "blurb": "A practical, personalized review of your home and routines, delivered asynchronously.",
-      "price": "$297",
+      "price": "$497",
       "priceNote": "",
       "where": "Checkout on Mindful Offers (Stripe)",
       "url": "https://mindful-offers.netlify.app/o/adhd-home-audit",
@@ -1247,7 +1247,7 @@
       "name": "ADHD W/Me Club",
       "kind": "Self-guided membership",
       "blurb": "Weekly practical prompts, smaller options and printable worksheets by email. Manage or cancel on your member page.",
-      "price": "$19/month",
+      "price": "$5/month",
       "priceNote": "",
       "where": "Checkout on Mindful Offers (Stripe)",
       "url": "https://mindful-offers.netlify.app/o/adhd-with-me-club",
@@ -1266,8 +1266,8 @@
       "id": "async-support",
       "name": "Async Support (4 weeks)",
       "kind": "Personalized written support",
-      "blurb": "Four weeks of written, asynchronous support while you put a plan in place.",
-      "price": "$97",
+      "blurb": "Four weeks of practical written implementation support for one existing Mindful plan. Send one consolidated check-in each week and receive one written reply within two business days, including focused plan adjustments. Additional messages or a new plan require a separate scope.",
+      "price": "$397",
       "priceNote": "4 weeks",
       "where": "Checkout on Mindful Offers (Stripe)",
       "url": "https://mindful-offers.netlify.app/o/async-support",
@@ -1327,7 +1327,7 @@
       "name": "Mindful Sensory Self-Care Plan",
       "kind": "Personalized plan",
       "blurb": "A sensory self-care plan built around your needs, spaces and routines.",
-      "price": "$197",
+      "price": "$297",
       "priceNote": "",
       "where": "Checkout on Mindful Offers (Stripe)",
       "url": "https://mindful-offers.netlify.app/o/sensory-self-care-plan",
@@ -1346,7 +1346,7 @@
       "name": "Regulation Station Plan",
       "kind": "Personalized plan",
       "blurb": "A custom plan for a calm corner or regulation station in your home, classroom, office or venue.",
-      "price": "$297",
+      "price": "$397",
       "priceNote": "",
       "where": "Checkout on Mindful Offers (Stripe)",
       "url": "https://mindful-offers.netlify.app/o/regulation-station-plan",
@@ -1367,7 +1367,7 @@
       "name": "White-label Regulation Kit",
       "kind": "Organizational digital package",
       "blurb": "A branded calm-space plan your team can roll out across every room or site.",
-      "price": "$1,500",
+      "price": "$1500",
       "priceNote": "digital package for up to 3 room types; physical items not included",
       "where": "Checkout on Mindful Offers (Stripe)",
       "url": "https://mindful-offers.netlify.app/o/white-label-regulation-kit",
@@ -1387,7 +1387,7 @@
       "name": "Digital Accessibility Functional Plan",
       "kind": "Personalized plan",
       "blurb": "A functional plan for phones, computers and focus.",
-      "price": "$197",
+      "price": "$297",
       "priceNote": "",
       "where": "Checkout on Mindful Offers (Stripe)",
       "url": "https://mindful-offers.netlify.app/o/digital-accessibility-plan",
@@ -1406,7 +1406,7 @@
       "name": "IEP Sensory & Creative Integration Roadmap",
       "kind": "Personalized roadmap",
       "blurb": "A sensory and creative integration roadmap for a student's school plan or IEP.",
-      "price": "$297",
+      "price": "$497",
       "priceNote": "",
       "where": "Checkout on Mindful Offers (Stripe)",
       "url": "https://mindful-offers.netlify.app/o/iep-integration-roadmap",
@@ -1463,7 +1463,7 @@
       "name": "Done-for-you Resource Library",
       "kind": "Organizational service",
       "blurb": "A curated, organized resource library built for your clients, students or staff, ready to share.",
-      "price": "$1,200",
+      "price": "$1500",
       "priceNote": "",
       "where": "Checkout on Mindful Offers (Stripe)",
       "url": "https://mindful-offers.netlify.app/o/dfy-resource-library",
@@ -1502,7 +1502,7 @@
       "name": "Neuroinclusive Training License",
       "kind": "Organizational license",
       "blurb": "A captioned neuroinclusive staff training with a facilitator guide and branded slides your team can run any time.",
-      "price": "$997/year",
+      "price": "$997",
       "priceNote": "renews yearly",
       "where": "Checkout on Mindful Offers (Stripe)",
       "url": "https://mindful-offers.netlify.app/o/training-license",
@@ -1521,7 +1521,7 @@
       "name": "Branded Audio Pack License",
       "kind": "Organizational license",
       "blurb": "A licensed pack of regulation and mindfulness audio with your intro, for a waiting room, app or clients.",
-      "price": "$997/year",
+      "price": "$997",
       "priceNote": "",
       "where": "Checkout on Mindful Offers (Stripe)",
       "url": "https://mindful-offers.netlify.app/o/branded-audio-pack",
