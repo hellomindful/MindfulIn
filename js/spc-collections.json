@@ -119,7 +119,7 @@
         "height": 240,
         "alt": ""
       },
-      "metaDescription": "Mindful Edits personal curation: a $49 Mindful Edits Personal Curation, gift edits and pet picks, with products bought separately from their sellers.",
+      "metaDescription": "Mindful Edits personal curation: a $97 Mindful Edits Personal Curation, gift edits and pet picks, with products bought separately from their sellers.",
       "audience": "For anyone tired of scrolling: a home or workspace that needs to work better, a gift that needs to land, a pet who needs comfort, or a sensory need that generic lists miss.",
       "groups": [
         {
@@ -130,7 +130,7 @@
         {
           "key": "resource",
           "title": "Related resources",
-          "note": "These are digital products, separate from the curation services. The $49 Lighter Week Toolkit is a download, not the $49 Personal Curation."
+          "note": "These are digital products, separate from the curation services. The $49 Lighter Week Toolkit is a download, not the $97 Personal Curation."
         }
       ],
       "areas": [
@@ -165,7 +165,7 @@
       ],
       "primary": {
         "heading": "Start with a brief",
-        "text": "Tell us the person, the problem and the budget. The $49 fee covers the research; items are bought separately.",
+        "text": "Tell us the person, the problem and the budget. The $97 fee covers the research; items are bought separately.",
         "label": "Request Personal Curation",
         "url": "https://mindfuledits.io/personal-sourcing"
       },
@@ -1038,8 +1038,8 @@
       "id": "finds-edit",
       "name": "Mindful Edits — Personal Curation",
       "kind": "Curation service",
-      "blurb": "Send a short brief about the person, the problem and the budget. Get a researched shortlist of finds with the reasons behind each.",
-      "price": "$49 sourcing fee",
+      "blurb": "One accepted brief, three researched secondhand options, with prices, fit notes and a recommendation. Items purchased separately.",
+      "price": "$97 sourcing fee",
       "priceNote": "items bought separately",
       "where": "Request first through Mindful Edits",
       "url": "https://mindfuledits.io/personal-sourcing",
