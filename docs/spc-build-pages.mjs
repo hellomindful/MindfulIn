@@ -1,6 +1,7 @@
 // Regenerates the MindfulSPC collection page shells (sensoryspc.html, editspc.html, ...) from the manifest.
 // The shells hold the shared header, footer and SEO metadata; /js/spc-render.js fills in the products.
 // Run from the repo root after adding or renaming a collection:  node docs/spc-build-pages.mjs
+// Replacements use callbacks so text such as "$19/month" is inserted literally.
 import { readFileSync, writeFileSync } from 'node:fs';
 
 const data = JSON.parse(readFileSync('js/spc-collections.json', 'utf8'));
@@ -19,13 +20,13 @@ function buildSpcPage(template, c) {
   var url = 'https://www.mindfulin.com/' + c.slug;
   head = head
     .replace(/<title>[\s\S]*?<\/title>/, '<title>' + escHtml(title) + '</title>')
-    .replace(/(<meta name="description" content=")[^"]*(")/, '$1' + escAttr(c.metaDescription) + '$2')
-    .replace(/(<link rel="canonical" href=")[^"]*(")/, '$1' + url + '$2')
-    .replace(/(<meta property="og:title" content=")[^"]*(")/, '$1' + escAttr(title) + '$2')
-    .replace(/(<meta property="og:description" content=")[^"]*(")/, '$1' + escAttr(c.metaDescription) + '$2')
-    .replace(/(<meta property="og:url" content=")[^"]*(")/, '$1' + url + '$2');
+    .replace(/(<meta name="description" content=")[^"]*(")/, function (m, a, b) { return a + escAttr(c.metaDescription) + b; })
+    .replace(/(<link rel="canonical" href=")[^"]*(")/, function (m, a, b) { return a + url + b; })
+    .replace(/(<meta property="og:title" content=")[^"]*(")/, function (m, a, b) { return a + escAttr(title) + b; })
+    .replace(/(<meta property="og:description" content=")[^"]*(")/, function (m, a, b) { return a + escAttr(c.metaDescription) + b; })
+    .replace(/(<meta property="og:url" content=")[^"]*(")/, function (m, a, b) { return a + url + b; });
   if (c.hero.image && !c.hero.decorative) {
-    head = head.replace(/(<meta property="og:image" content=")[^"]*(")/, '$1https://www.mindfulin.com' + c.hero.image + '$2');
+    head = head.replace(/(<meta property="og:image" content=")[^"]*(")/, function (m, a, b) { return a + 'https://www.mindfulin.com' + c.hero.image + b; });
   }
   head = head.replace('</head>',
     '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap">\n' +
