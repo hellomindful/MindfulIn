@@ -26,3 +26,13 @@
 /development-sprint /development-sprint.html 200
 /development-sprint/ /development-sprint.html 200
 /o/* https://mindful-offers.netlify.app/o/:splat 302
+
+# Planned structure URLs (2026-10-23 audit). 302 until the owner approves permanent 301s.
+/markets https://www.mindfulspc.com/ 302
+/markets/ https://www.mindfulspc.com/ 302
+/allind /learn 302
+/allind/ /learn 302
+/engines /organizations 302
+/engines/ /organizations 302
+/ip /organizations 302
+/ip/ /organizations 302
