@@ -1,0 +1,1741 @@
+{
+  "schema": "spc-collections/1",
+  "lastVerified": "2026-10-23",
+  "statuses": {
+    "LIVE": "Verified product, price, checkout and fulfillment",
+    "PREVIEW": "Real asset or prototype, shown with a not-for-sale label",
+    "IN_PRODUCTION": "Needs supplier, price or fulfillment; hidden",
+    "CATALOGED": "Concept or empty storefront; hidden"
+  },
+  "collections": [
+    {
+      "id": "sensoryspc",
+      "slug": "sensoryspc",
+      "name": "SensorySPC",
+      "tagline": "Functional sensory supports and curated regulation help.",
+      "pathway": "Shop & Design",
+      "readiness": "Preview-ready (Ecwid shop empty)",
+      "hero": {
+        "title": "Sensory supports that fit real rooms and real days",
+        "lede": "Practical sensory and regulation help for home, work, classrooms and pets: personalized plans, curated picks and free tools to start with.",
+        "image": "/assets/images/office-calm-room.jpg",
+        "decorative": false,
+        "width": 620,
+        "height": 420,
+        "alt": "A calm room with soft white seating, natural light and a large bird print on the wall"
+      },
+      "metaDescription": "Sensory and regulation supports for home, work, classrooms and pets: curated picks, personalized sensory plans and organizational regulation kits from MindfulSPC.",
+      "audience": "For people who want a calmer, more comfortable space without buying a pile of things that don't help: parents, educators, sensory-sensitive adults and pet owners.",
+      "groups": [
+        {
+          "key": "shop",
+          "title": "Shop sensory products",
+          "note": "MindfulSPC.com products appear here once they are listed."
+        },
+        {
+          "key": "curate",
+          "title": "Have it chosen for you",
+          "note": "You pay for the curation. Any items you choose are bought separately."
+        },
+        {
+          "key": "plans",
+          "title": "Personalized sensory plans"
+        },
+        {
+          "key": "org",
+          "title": "For schools, clinics and workplaces"
+        }
+      ],
+      "areas": [
+        {
+          "name": "Sensory tools and fidgets",
+          "status": "in-development"
+        },
+        {
+          "name": "Functional supports",
+          "status": "in-development"
+        },
+        {
+          "name": "Home and work environments",
+          "status": "available"
+        },
+        {
+          "name": "Kids and classrooms",
+          "status": "in-development"
+        },
+        {
+          "name": "Self-care and regulation",
+          "status": "available"
+        },
+        {
+          "name": "Mindful Pets and Comfort",
+          "status": "available"
+        },
+        {
+          "name": "Curated sensory bundles",
+          "status": "in-development"
+        }
+      ],
+      "primary": {
+        "heading": "Not sure what will actually help?",
+        "text": "Send a short brief and get a researched shortlist for your space, your senses and your budget.",
+        "label": "Request a Finds Edit",
+        "url": "https://mindfuledits.io/personal-sourcing"
+      },
+      "secondary": {
+        "text": "Planning a calm corner?",
+        "label": "See the Regulation Station Plan",
+        "url": "https://mindful-offers.netlify.app/o/regulation-station-plan"
+      },
+      "related": [
+        "kitspc",
+        "editspc",
+        "breathspc"
+      ],
+      "careNote": false,
+      "channels": [
+        "Pinterest",
+        "Instagram",
+        "MindfulSPC.com",
+        "Kit"
+      ],
+      "sourceAssets": [
+        "assets/images/office-calm-room.jpg (existing site photo)"
+      ]
+    },
+    {
+      "id": "editspc",
+      "slug": "editspc",
+      "name": "Mindful Edits",
+      "tagline": "Paid personal curation; products bought separately.",
+      "pathway": "Shop & Design",
+      "readiness": "Live product verified",
+      "hero": {
+        "title": "Let someone else do the searching",
+        "lede": "Mindful Edits researches and shortlists products for your real situation. You pay for the curation and buy only what you choose.",
+        "image": "/assets/images/face-lilac.png",
+        "decorative": true,
+        "width": 240,
+        "height": 240,
+        "alt": ""
+      },
+      "metaDescription": "Mindful Edits personal curation: a $49 Personal Finds Edit, gift edits and pet picks, with products bought separately from their sellers.",
+      "audience": "For anyone tired of scrolling: a home or workspace that needs to work better, a gift that needs to land, a pet who needs comfort, or a sensory need that generic lists miss.",
+      "groups": [
+        {
+          "key": "service",
+          "title": "Curation services",
+          "note": "The fee pays for research and curation. Any items you choose are bought separately from their sellers."
+        },
+        {
+          "key": "resource",
+          "title": "Related resources",
+          "note": "These are digital products, separate from the curation services. The $49 Lighter Week Toolkit is a download, not the $49 Finds Edit."
+        }
+      ],
+      "areas": [
+        {
+          "name": "Personal Finds Edit",
+          "status": "available"
+        },
+        {
+          "name": "Functional Affirming Design recommendations",
+          "status": "in-development"
+        },
+        {
+          "name": "Curated sensory solutions",
+          "status": "available"
+        },
+        {
+          "name": "Home and workspace edits",
+          "status": "available"
+        },
+        {
+          "name": "Gift edits",
+          "status": "available"
+        },
+        {
+          "name": "Themed product collections",
+          "status": "in-development"
+        },
+        {
+          "name": "Related downloadable resources",
+          "status": "available"
+        }
+      ],
+      "primary": {
+        "heading": "Start with a brief",
+        "text": "Tell us the person, the problem and the budget. The $49 fee covers the research; items are bought separately.",
+        "label": "Request a Finds Edit",
+        "url": "https://mindfuledits.io/personal-sourcing"
+      },
+      "secondary": {
+        "text": "Want to browse first?",
+        "label": "See a sample edit",
+        "url": "https://mindfuledits.io/sample-edit"
+      },
+      "related": [
+        "sensoryspc",
+        "kitspc",
+        "libraryspc"
+      ],
+      "careNote": false,
+      "channels": [
+        "MindfulEdits.io",
+        "Instagram",
+        "Pinterest",
+        "Kit"
+      ],
+      "sourceAssets": [
+        "assets/images/face-lilac.png (brand illustration)"
+      ]
+    },
+    {
+      "id": "mantraspc",
+      "slug": "mantraspc",
+      "name": "MantraSpace",
+      "tagline": "Original affirmation art and print-on-demand designs.",
+      "pathway": "Shop & Design",
+      "readiness": "Awaiting products",
+      "hero": {
+        "title": "Original art with words worth keeping in view",
+        "lede": "MantraSpace is the home for Mindful Innovations' original affirmation art: prints, stickers, apparel, stationery and gifts. Printed products are being prepared and are not on sale yet.",
+        "image": "/assets/images/face-coral.png",
+        "decorative": true,
+        "width": 240,
+        "height": 240,
+        "alt": ""
+      },
+      "metaDescription": "MantraSpace original affirmation art from Mindful Innovations: prints, stickers, apparel and gifts in development, plus custom artwork for organizations.",
+      "audience": "For people who want encouraging, functional art for a home, classroom or workspace, and for organizations that want custom affirming visuals.",
+      "groups": [
+        {
+          "key": "pod",
+          "title": "Shop MantraSpace products",
+          "note": "Published Printify and Etsy listings appear here."
+        },
+        {
+          "key": "listen",
+          "title": "Listen while the collection is prepared"
+        }
+      ],
+      "areas": [
+        {
+          "name": "Affirmation art",
+          "status": "in-development"
+        },
+        {
+          "name": "Posters and prints",
+          "status": "in-development"
+        },
+        {
+          "name": "Stickers",
+          "status": "in-development"
+        },
+        {
+          "name": "Apparel",
+          "status": "in-development"
+        },
+        {
+          "name": "Stationery",
+          "status": "in-development"
+        },
+        {
+          "name": "Gifts",
+          "status": "in-development"
+        },
+        {
+          "name": "Art Affirmations",
+          "status": "in-development"
+        },
+        {
+          "name": "MantraSpace original collections",
+          "status": "in-development"
+        }
+      ],
+      "primary": {
+        "heading": "Want custom affirming art?",
+        "text": "Commission artwork for a classroom, clinic, workplace or event.",
+        "label": "Request custom artwork",
+        "url": "/organizations#opportunity-brief"
+      },
+      "secondary": {
+        "text": "Looking for visual cues?",
+        "label": "Visit AffirmSPC",
+        "url": "/affirmspc"
+      },
+      "related": [
+        "affirmspc",
+        "stickeredspc",
+        "kitspc"
+      ],
+      "careNote": false,
+      "channels": [
+        "Pinterest",
+        "Instagram",
+        "TikTok",
+        "Etsy",
+        "Kit"
+      ],
+      "sourceAssets": [
+        "assets/images/face-coral.png (brand illustration)"
+      ]
+    },
+    {
+      "id": "breathspc",
+      "slug": "breathspc",
+      "name": "BreathSPC",
+      "tagline": "Breathing and regulation practices and visual supports.",
+      "pathway": "Shop & Design",
+      "readiness": "Preview-ready (products awaiting)",
+      "hero": {
+        "title": "Breathing tools for the moments that need them",
+        "lede": "Guided breathing and regulation practices you can use today, with Breath Boards, Breath Cards and printable guides in development.",
+        "image": "/assets/images/face-sky.png",
+        "decorative": true,
+        "width": 240,
+        "height": 240,
+        "alt": ""
+      },
+      "metaDescription": "BreathSPC breathing and regulation supports: free guided practices by Michelle Swerin and licensed audio for classrooms, clinics and teams.",
+      "audience": "For anyone who wants a simple way to settle their body, and for teachers, clinicians and teams who want breathing supports in a shared space.",
+      "groups": [
+        {
+          "key": "shop",
+          "title": "Breathing resources"
+        },
+        {
+          "key": "listen",
+          "title": "Free guided practices",
+          "note": "These play on their original platforms. They are free to listen to and are not sold here."
+        },
+        {
+          "key": "adapt",
+          "title": "For classrooms, clinics and teams"
+        }
+      ],
+      "areas": [
+        {
+          "name": "Breath Boards",
+          "status": "in-development"
+        },
+        {
+          "name": "Breath Cards",
+          "status": "in-development"
+        },
+        {
+          "name": "Breathing posters",
+          "status": "in-development"
+        },
+        {
+          "name": "Visual breathing guides",
+          "status": "in-development"
+        },
+        {
+          "name": "Printable regulation tools",
+          "status": "in-development"
+        },
+        {
+          "name": "Guided mindful practice",
+          "status": "available"
+        },
+        {
+          "name": "Companion original audio",
+          "status": "available"
+        },
+        {
+          "name": "Classroom and professional versions",
+          "status": "available"
+        }
+      ],
+      "primary": {
+        "heading": "Start with one practice",
+        "text": "A short guided practice is the quickest way to try this.",
+        "label": "Listen to Regulate and Rest",
+        "url": "https://insighttimer.com/createspacemeditate/guided-meditations/regulate-and-rest"
+      },
+      "secondary": {
+        "text": "Need audio for a waiting room or app?",
+        "label": "See the Branded Audio Pack License",
+        "url": "https://mindful-offers.netlify.app/o/branded-audio-pack"
+      },
+      "related": [
+        "affirmspc",
+        "sensoryspc",
+        "withmespc"
+      ],
+      "careNote": false,
+      "channels": [
+        "Instagram",
+        "YouTube",
+        "MindfulOn.io",
+        "Kit"
+      ],
+      "sourceAssets": [
+        "assets/images/face-sky.png (brand illustration)"
+      ]
+    },
+    {
+      "id": "affirmspc",
+      "slug": "affirmspc",
+      "name": "AffirmSPC",
+      "tagline": "Functional affirmations and visual cues.",
+      "pathway": "Shop & Design",
+      "readiness": "Awaiting products",
+      "hero": {
+        "title": "Affirmations that do a job",
+        "lede": "Visual cues, reminders and affirming art for real moments: starting, pausing and being kinder to yourself. Printed pieces are in development.",
+        "image": "/assets/images/face-periwinkle.png",
+        "decorative": true,
+        "width": 240,
+        "height": 240,
+        "alt": ""
+      },
+      "metaDescription": "AffirmSPC functional affirmations and visual cues: free affirmation practices now, with affirmation cards, wall art and classroom visual systems in development.",
+      "audience": "For people who use visual reminders to get through the day, and for classrooms and workplaces that want a consistent, affirming visual system.",
+      "groups": [
+        {
+          "key": "shop",
+          "title": "Shop affirmation art and resources"
+        },
+        {
+          "key": "listen",
+          "title": "Free affirmation practices"
+        }
+      ],
+      "areas": [
+        {
+          "name": "Art Affirmations",
+          "status": "in-development"
+        },
+        {
+          "name": "Regulation reminders",
+          "status": "in-development"
+        },
+        {
+          "name": "Affirming wall art",
+          "status": "in-development"
+        },
+        {
+          "name": "Visual cues",
+          "status": "in-development"
+        },
+        {
+          "name": "Executive-function supports",
+          "status": "in-development"
+        },
+        {
+          "name": "Printable affirmation cards",
+          "status": "in-development"
+        },
+        {
+          "name": "Apparel and gifts",
+          "status": "in-development"
+        },
+        {
+          "name": "Classroom and workplace visual systems",
+          "status": "in-development"
+        }
+      ],
+      "primary": {
+        "heading": "Need affirming visuals for a space?",
+        "text": "We design visual cues and affirmation systems for classrooms, clinics and workplaces.",
+        "label": "Request a custom visual design",
+        "url": "/organizations#opportunity-brief"
+      },
+      "secondary": {
+        "text": "Want something now?",
+        "label": "Listen to a free affirmation",
+        "url": "https://www.aurahealth.io/track/morning-energy-affirmation-michelle-swerin"
+      },
+      "related": [
+        "mantraspc",
+        "stickeredspc",
+        "breathspc"
+      ],
+      "careNote": false,
+      "channels": [
+        "Pinterest",
+        "Instagram",
+        "TikTok",
+        "Kit"
+      ],
+      "sourceAssets": [
+        "assets/images/face-periwinkle.png (brand illustration)"
+      ]
+    },
+    {
+      "id": "adhdspc",
+      "slug": "adhdspc",
+      "name": "ADHDSPC",
+      "tagline": "Practical ADHD and executive-function tools.",
+      "pathway": "Shop & Design",
+      "readiness": "Live product verified",
+      "hero": {
+        "title": "Practical tools for ADHD weeks",
+        "lede": "Toolkits, printables and a self-assessment for the parts of ADHD life that cost time and money: mental load, planning and the ADHD tax.",
+        "image": "/assets/images/face-sky.png",
+        "decorative": true,
+        "width": 240,
+        "height": 240,
+        "alt": ""
+      },
+      "metaDescription": "Practical ADHD tools: the ADHD Tax Snapshot, Lighter Week and Lighter Holiday toolkits, the Less to Carry bundle and free starting tools.",
+      "audience": "For adults with ADHD, diagnosed or self-identified, and the parents and partners who share the load. These are practical, educational resources, not assessments, therapy or coaching.",
+      "groups": [
+        {
+          "key": "free",
+          "title": "Start free"
+        },
+        {
+          "key": "shop",
+          "title": "Toolkits and self-assessment"
+        },
+        {
+          "key": "next",
+          "title": "When you want more support",
+          "note": "Services and memberships through Mindful Offers and MindfulADHD."
+        }
+      ],
+      "areas": [
+        {
+          "name": "ADHD tax resources",
+          "status": "available"
+        },
+        {
+          "name": "ADHD Tax Reset Kit",
+          "status": "in-development"
+        },
+        {
+          "name": "Lighter Week Toolkit",
+          "status": "available"
+        },
+        {
+          "name": "Executive-function visual supports",
+          "status": "in-development"
+        },
+        {
+          "name": "Routine and organization tools",
+          "status": "available"
+        },
+        {
+          "name": "ADHD Home Audit",
+          "status": "available"
+        },
+        {
+          "name": "Functional roadmaps and printables",
+          "status": "available"
+        }
+      ],
+      "primary": {
+        "heading": "Find out where ADHD is costing you",
+        "text": "Fifteen questions, your top three hot spots and a gentle 4-week plan.",
+        "label": "Get the ADHD Tax Snapshot",
+        "url": "https://mindful-offers.netlify.app/o/adhd-tax-snapshot"
+      },
+      "secondary": {
+        "text": "Looking for ongoing support?",
+        "label": "Explore MindfulADHD",
+        "url": "https://mindfuladhd.com/"
+      },
+      "related": [
+        "planspc",
+        "withmespc",
+        "libraryspc"
+      ],
+      "careNote": true,
+      "channels": [
+        "MindfulADHD.com",
+        "Instagram",
+        "TikTok",
+        "Pinterest",
+        "Kit"
+      ],
+      "sourceAssets": [
+        "assets/images/face-sky.png (brand illustration)"
+      ]
+    },
+    {
+      "id": "withmespc",
+      "slug": "withmespc",
+      "name": "W/ME",
+      "tagline": "Guided mindful living, prompts and companion support.",
+      "pathway": "Shop & Design",
+      "readiness": "Live product verified",
+      "hero": {
+        "title": "Mindful living, with company",
+        "lede": "Prompts, printables and practices for everyday regulation and reflection, plus a self-guided club and optional written support.",
+        "image": "/assets/images/face-periwinkle.png",
+        "decorative": true,
+        "width": 240,
+        "height": 240,
+        "alt": ""
+      },
+      "metaDescription": "W/ME guided mindful living: free starting tools, the $19/month ADHD W/Me Club, optional written support and free guided practices.",
+      "audience": "For people who want small, steady practice without another app to keep up with. Choose what fits: free tools, a self-guided membership or personalized written support.",
+      "groups": [
+        {
+          "key": "free",
+          "title": "Free to start"
+        },
+        {
+          "key": "membership",
+          "title": "Self-guided membership",
+          "note": "Prompts by email. No calls and no personalized coaching."
+        },
+        {
+          "key": "support",
+          "title": "Personalized written support",
+          "note": "Asynchronous, practical support. Not therapy, diagnosis or crisis care."
+        },
+        {
+          "key": "listen",
+          "title": "Guided practices"
+        }
+      ],
+      "areas": [
+        {
+          "name": "W/ME journals",
+          "status": "in-development"
+        },
+        {
+          "name": "Guided prompts",
+          "status": "available"
+        },
+        {
+          "name": "Mindfulness printables",
+          "status": "available"
+        },
+        {
+          "name": "Self-reflection tools",
+          "status": "available"
+        },
+        {
+          "name": "Regulation exercises",
+          "status": "available"
+        },
+        {
+          "name": "Activity books",
+          "status": "in-development"
+        },
+        {
+          "name": "Original audio companions",
+          "status": "available"
+        },
+        {
+          "name": "W/ME challenges and collections",
+          "status": "in-development"
+        }
+      ],
+      "primary": {
+        "heading": "Keep the practice going",
+        "text": "Weekly prompts and printables by email, for $19 a month. Cancel any time.",
+        "label": "Join the ADHD W/Me Club",
+        "url": "https://mindful-offers.netlify.app/o/adhd-with-me-club"
+      },
+      "secondary": {
+        "text": "Want to see every support option?",
+        "label": "Visit MindfulADHD",
+        "url": "https://mindfuladhd.com/"
+      },
+      "related": [
+        "adhdspc",
+        "breathspc",
+        "planspc"
+      ],
+      "careNote": true,
+      "channels": [
+        "MindfulADHD.com",
+        "Kit",
+        "Instagram"
+      ],
+      "sourceAssets": [
+        "assets/images/face-periwinkle.png (brand illustration)"
+      ]
+    },
+    {
+      "id": "stickeredspc",
+      "slug": "stickeredspc",
+      "name": "StickeredSPC",
+      "tagline": "Functional sticker reminders and visual cues.",
+      "pathway": "Shop & Design",
+      "readiness": "Awaiting products",
+      "hero": {
+        "title": "Small reminders that stick",
+        "lede": "Sticker sheets and labels for routines, regulation and encouragement are in development. Nothing here is on sale yet.",
+        "image": "/assets/images/face-coral.png",
+        "decorative": true,
+        "width": 240,
+        "height": 240,
+        "alt": ""
+      },
+      "metaDescription": "StickeredSPC functional sticker reminders for routines, regulation and encouragement, in development, with custom and bulk sticker requests for classrooms and teams.",
+      "audience": "For people who rely on visual cues around the house, and for classrooms and teams that want reward, routine and organization stickers that match their space.",
+      "groups": [
+        {
+          "key": "pod",
+          "title": "Shop sticker products",
+          "note": "Published sticker listings appear here."
+        }
+      ],
+      "areas": [
+        {
+          "name": "Affirmation stickers",
+          "status": "in-development"
+        },
+        {
+          "name": "Executive-function visual cues",
+          "status": "in-development"
+        },
+        {
+          "name": "Regulation reminders",
+          "status": "in-development"
+        },
+        {
+          "name": "Routine labels",
+          "status": "in-development"
+        },
+        {
+          "name": "Classroom sticker sheets",
+          "status": "in-development"
+        },
+        {
+          "name": "Reward and encouragement systems",
+          "status": "in-development"
+        },
+        {
+          "name": "Functional organization stickers",
+          "status": "in-development"
+        },
+        {
+          "name": "Personalized sticker designs",
+          "status": "in-development"
+        }
+      ],
+      "primary": {
+        "heading": "Need stickers for a classroom or team?",
+        "text": "Tell us what you need and how many. We will reply with options before anything is printed.",
+        "label": "Request bulk or custom stickers",
+        "url": "/organizations#opportunity-brief"
+      },
+      "secondary": {
+        "text": "Looking for affirming visuals?",
+        "label": "Visit AffirmSPC",
+        "url": "/affirmspc"
+      },
+      "related": [
+        "affirmspc",
+        "mantraspc",
+        "planspc"
+      ],
+      "careNote": false,
+      "channels": [
+        "Pinterest",
+        "Instagram",
+        "Etsy",
+        "Kit"
+      ],
+      "sourceAssets": [
+        "assets/images/face-coral.png (brand illustration)"
+      ]
+    },
+    {
+      "id": "kitspc",
+      "slug": "kitspc",
+      "name": "KitSPC",
+      "tagline": "Bundles, activity kits and regulation kits.",
+      "pathway": "Shop & Design",
+      "readiness": "Live product verified (digital only)",
+      "hero": {
+        "title": "Kits that bring the pieces together",
+        "lede": "Digital kits, curated picks and organizational regulation kits, each labeled by what you actually receive. Physically assembled kits are not available yet.",
+        "image": "/assets/images/face-sky.png",
+        "decorative": true,
+        "width": 240,
+        "height": 240,
+        "alt": ""
+      },
+      "metaDescription": "KitSPC bundles and kits: the Less to Carry digital bundle, curated pet and gift picks, regulation station plans and organizational regulation kits.",
+      "audience": "For families, educators and teams who want a ready-made starting point instead of assembling supports one by one.",
+      "groups": [
+        {
+          "key": "digital",
+          "title": "Digital kits",
+          "note": "Downloads only. Nothing ships."
+        },
+        {
+          "key": "curated",
+          "title": "Curated recommendations",
+          "note": "You receive a curated list. Items are bought separately."
+        },
+        {
+          "key": "plans",
+          "title": "Personalized kit plans"
+        },
+        {
+          "key": "org",
+          "title": "Organizational kits",
+          "note": "Digital packages and licenses. Physical items are not included."
+        }
+      ],
+      "areas": [
+        {
+          "name": "Sensory starter kits",
+          "status": "in-development"
+        },
+        {
+          "name": "DIY regulation stations",
+          "status": "available"
+        },
+        {
+          "name": "Mindful Paws kits",
+          "status": "available"
+        },
+        {
+          "name": "ADHD support kits",
+          "status": "available"
+        },
+        {
+          "name": "Classroom activity kits",
+          "status": "in-development"
+        },
+        {
+          "name": "Breath Cards and Boards bundles",
+          "status": "in-development"
+        },
+        {
+          "name": "Creative mindful activity kits",
+          "status": "in-development"
+        },
+        {
+          "name": "Gift and care packages",
+          "status": "in-development"
+        }
+      ],
+      "primary": {
+        "heading": "Start with a ready-made kit",
+        "text": "Everyday and seasonal mental-load tools in one download.",
+        "label": "Get the Less to Carry bundle",
+        "url": "https://mindfulin.gumroad.com/l/rhjph"
+      },
+      "secondary": {
+        "text": "Need a kit for a group or site?",
+        "label": "Request a curated or organizational kit",
+        "url": "/organizations#opportunity-brief"
+      },
+      "related": [
+        "sensoryspc",
+        "editspc",
+        "libraryspc"
+      ],
+      "careNote": false,
+      "channels": [
+        "Pinterest",
+        "Instagram",
+        "Kit"
+      ],
+      "sourceAssets": [
+        "assets/images/face-sky.png (brand illustration)"
+      ]
+    },
+    {
+      "id": "libraryspc",
+      "slug": "libraryspc",
+      "name": "LibrarySPC",
+      "tagline": "Digital resources, workbooks and licensed libraries.",
+      "pathway": "Shop & Design",
+      "readiness": "Live product verified",
+      "hero": {
+        "title": "A library of practical resources",
+        "lede": "Downloadable toolkits and printables for individuals, and licensed resource libraries and training for organizations.",
+        "image": "/assets/images/office-training-room.jpg",
+        "decorative": false,
+        "width": 620,
+        "height": 499,
+        "alt": "A bright training room with rows of chairs facing a wall-mounted screen"
+      },
+      "metaDescription": "LibrarySPC digital resources: free printables, Gumroad toolkits, and licensed resource libraries and neuroinclusive training for organizations.",
+      "audience": "For individuals who want a useful download today, and for schools, clinics and employers that need resources they can share with clients, students or staff.",
+      "groups": [
+        {
+          "key": "free",
+          "title": "Free resources"
+        },
+        {
+          "key": "digital",
+          "title": "Digital downloads"
+        },
+        {
+          "key": "pro",
+          "title": "For professionals"
+        },
+        {
+          "key": "org",
+          "title": "Organizational licenses and libraries",
+          "note": "Licensed to one organization. Separate from the individual downloads above."
+        }
+      ],
+      "areas": [
+        {
+          "name": "Digital printables",
+          "status": "available"
+        },
+        {
+          "name": "Workbooks",
+          "status": "available"
+        },
+        {
+          "name": "Guided journals",
+          "status": "in-development"
+        },
+        {
+          "name": "Downloadable resource guides",
+          "status": "available"
+        },
+        {
+          "name": "Activity books",
+          "status": "in-development"
+        },
+        {
+          "name": "Original ebooks",
+          "status": "in-development"
+        },
+        {
+          "name": "Audio companion resources",
+          "status": "available"
+        },
+        {
+          "name": "Professional resource collections",
+          "status": "available"
+        },
+        {
+          "name": "Organizational licenses",
+          "status": "available"
+        }
+      ],
+      "primary": {
+        "heading": "Start with a free download",
+        "text": "Two short pages to choose one priority and one next action.",
+        "label": "Get the Five-Minute Unload",
+        "url": "https://mindfulin.gumroad.com/l/five-minute-unload"
+      },
+      "secondary": {
+        "text": "Sharing resources across a team?",
+        "label": "Request an organizational license",
+        "url": "/organizations#opportunity-brief"
+      },
+      "related": [
+        "adhdspc",
+        "planspc",
+        "kitspc"
+      ],
+      "careNote": false,
+      "channels": [
+        "Kit",
+        "Pinterest",
+        "MindfulEdits.io"
+      ],
+      "sourceAssets": [
+        "assets/images/office-training-room.jpg (existing site photo)"
+      ]
+    },
+    {
+      "id": "planspc",
+      "slug": "planspc",
+      "name": "PlanSPC",
+      "tagline": "Planning tools and functional systems.",
+      "pathway": "Shop & Design",
+      "readiness": "Live product verified",
+      "hero": {
+        "title": "Plans that fit how you actually work",
+        "lede": "Weekly and seasonal planning toolkits, a one-question starting tool and personalized roadmaps when you want a plan built around you.",
+        "image": "/assets/images/face-lilac.png",
+        "decorative": true,
+        "width": 240,
+        "height": 240,
+        "alt": ""
+      },
+      "metaDescription": "PlanSPC planning tools: the Lighter Week and Lighter Holiday toolkits, the ADHD Tax Snapshot plan, and personalized AIRRI roadmaps.",
+      "audience": "For people who have tried rigid planners and want something smaller, and for families and students who need a plan that holds up on a hard day.",
+      "groups": [
+        {
+          "key": "free",
+          "title": "Start free"
+        },
+        {
+          "key": "shop",
+          "title": "Planning toolkits"
+        },
+        {
+          "key": "next",
+          "title": "Personalized plans and assessments",
+          "note": "Built for one person or setting. Delivered by Mindful Offers."
+        }
+      ],
+      "areas": [
+        {
+          "name": "Routine planners",
+          "status": "available"
+        },
+        {
+          "name": "Visual schedules",
+          "status": "in-development"
+        },
+        {
+          "name": "ADHD organization supports",
+          "status": "available"
+        },
+        {
+          "name": "Habit and regulation trackers",
+          "status": "in-development"
+        },
+        {
+          "name": "Family planning tools",
+          "status": "available"
+        },
+        {
+          "name": "Project and task templates",
+          "status": "in-development"
+        },
+        {
+          "name": "Guided implementation checklists",
+          "status": "available"
+        },
+        {
+          "name": "Accessible planning systems",
+          "status": "available"
+        }
+      ],
+      "primary": {
+        "heading": "Plan one week at a time",
+        "text": "Practical mental-load tools that start with one decision.",
+        "label": "Get the Lighter Week Toolkit",
+        "url": "https://mindfulin.gumroad.com/l/lighter-week-toolkit"
+      },
+      "secondary": {
+        "text": "Want a plan built for you?",
+        "label": "Explore AIRRI assessments",
+        "url": "/airri"
+      },
+      "related": [
+        "adhdspc",
+        "libraryspc",
+        "withmespc"
+      ],
+      "careNote": true,
+      "channels": [
+        "MindfulADHD.com",
+        "Pinterest",
+        "Kit"
+      ],
+      "sourceAssets": [
+        "assets/images/face-lilac.png (brand illustration)"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "finds-edit",
+      "name": "Personal Finds Edit",
+      "kind": "Curation service",
+      "blurb": "Send a short brief about the person, the problem and the budget. Get a researched shortlist of finds with the reasons behind each.",
+      "price": "$49 sourcing fee",
+      "priceNote": "items bought separately",
+      "where": "Request first through Mindful Edits",
+      "url": "https://mindfuledits.io/personal-sourcing",
+      "cta": "Request a Finds Edit",
+      "status": "LIVE",
+      "source": "Mindful Edits request + Stripe",
+      "canonical": "offers:finds-edit",
+      "fulfillment": "Async, by email",
+      "rights": "Owned service",
+      "placements": {
+        "editspc": "service",
+        "sensoryspc": "curate",
+        "kitspc": "curated"
+      }
+    },
+    {
+      "id": "wishkist-gift-edit",
+      "name": "WishKist Gift Edit",
+      "kind": "Gift curation service",
+      "blurb": "Tell us who the gift is for and what you want to spend. Get a short, considered list of gift ideas.",
+      "price": "$49 curation fee",
+      "priceNote": "gifts bought separately",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/wishkist-gift-edit",
+      "cta": "Start a Gift Edit",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:wishkist-gift-edit",
+      "fulfillment": "Async, by email",
+      "rights": "Owned service",
+      "placements": {
+        "editspc": "service",
+        "kitspc": "curated"
+      }
+    },
+    {
+      "id": "mindful-paws-picks",
+      "name": "Mindful Paws Picks",
+      "kind": "Pet curation service",
+      "blurb": "A curated set of comfort and enrichment picks chosen for one pet and its home.",
+      "price": "$49",
+      "priceNote": "items bought separately",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/mindful-paws-picks",
+      "cta": "Get Paws Picks",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:mindful-paws-picks",
+      "fulfillment": "Async, by email",
+      "rights": "Owned service",
+      "placements": {
+        "editspc": "service",
+        "sensoryspc": "curate",
+        "kitspc": "curated"
+      }
+    },
+    {
+      "id": "wishkist-gift-planner",
+      "name": "WishKist Gift Planner",
+      "kind": "Free planner",
+      "blurb": "Map the people, budgets and dates before you shop.",
+      "price": "Free",
+      "priceNote": "",
+      "where": "Mindful Offers",
+      "url": "https://mindful-offers.netlify.app/o/wishkist-gift-planner",
+      "cta": "Get the free planner",
+      "status": "LIVE",
+      "source": "Mindful Offers",
+      "canonical": "offers:wishkist-gift-planner",
+      "fulfillment": "Instant",
+      "rights": "Owned",
+      "placements": {
+        "editspc": "resource",
+        "libraryspc": "free"
+      }
+    },
+    {
+      "id": "lighter-week-toolkit",
+      "name": "The Lighter Week Toolkit",
+      "kind": "Digital toolkit",
+      "blurb": "Practical mental-load tools for working parents with ADHD: start with one decision and shape a week that fits.",
+      "price": "$49",
+      "priceNote": "instant download",
+      "where": "Sold on Gumroad",
+      "url": "https://mindfulin.gumroad.com/l/lighter-week-toolkit",
+      "cta": "Get the Lighter Week Toolkit",
+      "status": "LIVE",
+      "source": "Gumroad",
+      "canonical": "gumroad:lighter-week-toolkit",
+      "fulfillment": "Instant download",
+      "rights": "Owned",
+      "placements": {
+        "editspc": "resource",
+        "adhdspc": "shop",
+        "libraryspc": "digital",
+        "planspc": "shop"
+      }
+    },
+    {
+      "id": "lighter-holiday-toolkit",
+      "name": "The Lighter Holiday Toolkit",
+      "kind": "Digital toolkit",
+      "blurb": "An 8-page PDF and interactive workbook: a smaller holiday plan for working parents with ADHD.",
+      "price": "$29",
+      "priceNote": "instant download",
+      "where": "Sold on Gumroad",
+      "url": "https://mindfulin.gumroad.com/l/lighter-holiday-toolkit",
+      "cta": "Get the Lighter Holiday Toolkit",
+      "status": "LIVE",
+      "source": "Gumroad",
+      "canonical": "gumroad:lighter-holiday-toolkit",
+      "fulfillment": "Instant download",
+      "rights": "Owned",
+      "placements": {
+        "adhdspc": "shop",
+        "libraryspc": "digital",
+        "planspc": "shop"
+      }
+    },
+    {
+      "id": "less-to-carry-bundle",
+      "name": "Less to Carry: Complete Bundle",
+      "kind": "Digital bundle",
+      "blurb": "Everyday and seasonal mental-load tools: the Lighter Week and Lighter Holiday toolkits plus the free starter.",
+      "price": "$67",
+      "priceNote": "instant download",
+      "where": "Sold on Gumroad",
+      "url": "https://mindfulin.gumroad.com/l/rhjph",
+      "cta": "Get the bundle",
+      "status": "LIVE",
+      "source": "Gumroad",
+      "canonical": "gumroad:rhjph",
+      "fulfillment": "Instant download",
+      "rights": "Owned",
+      "placements": {
+        "adhdspc": "shop",
+        "libraryspc": "digital",
+        "kitspc": "digital",
+        "planspc": "shop"
+      }
+    },
+    {
+      "id": "five-minute-unload",
+      "name": "The Five-Minute Unload",
+      "kind": "Free printable",
+      "blurb": "Two short pages to choose one priority, one thing to make smaller and one next action.",
+      "price": "Free",
+      "priceNote": "pay what you want",
+      "where": "Gumroad",
+      "url": "https://mindfulin.gumroad.com/l/five-minute-unload",
+      "cta": "Get the free printable",
+      "status": "LIVE",
+      "source": "Gumroad",
+      "canonical": "gumroad:five-minute-unload",
+      "fulfillment": "Instant download",
+      "rights": "Owned",
+      "placements": {
+        "adhdspc": "free",
+        "libraryspc": "free",
+        "planspc": "free",
+        "withmespc": "free"
+      }
+    },
+    {
+      "id": "adhd-tax-snapshot",
+      "name": "ADHD Tax Snapshot",
+      "kind": "Self-assessment and plan",
+      "blurb": "Fifteen quick questions about money, time, home, admin and energy. See your top three ADHD-tax hot spots and get a 4-week plan.",
+      "price": "$47",
+      "priceNote": "instant access",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/adhd-tax-snapshot",
+      "cta": "Get the ADHD Tax Snapshot",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:adhd-tax-snapshot",
+      "fulfillment": "Automatic",
+      "rights": "Owned",
+      "placements": {
+        "adhdspc": "shop",
+        "planspc": "shop"
+      }
+    },
+    {
+      "id": "adhd-home-audit",
+      "name": "ADHD Home Audit & Affirming Roadmap",
+      "kind": "Personalized review",
+      "blurb": "A practical, personalized review of your home and routines, delivered asynchronously.",
+      "price": "$297",
+      "priceNote": "",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/adhd-home-audit",
+      "cta": "Start a Home Audit",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:adhd-home-audit",
+      "fulfillment": "Async",
+      "rights": "Owned service",
+      "placements": {
+        "adhdspc": "next"
+      }
+    },
+    {
+      "id": "adhd-with-me-club",
+      "name": "ADHD W/Me Club",
+      "kind": "Self-guided membership",
+      "blurb": "Weekly practical prompts, smaller options and printable worksheets by email. Manage or cancel on your member page.",
+      "price": "$19/month",
+      "priceNote": "",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/adhd-with-me-club",
+      "cta": "Join the club",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:adhd-with-me-club",
+      "fulfillment": "Automatic email delivery",
+      "rights": "Owned",
+      "placements": {
+        "withmespc": "membership",
+        "adhdspc": "next"
+      }
+    },
+    {
+      "id": "async-support",
+      "name": "Async Support (4 weeks)",
+      "kind": "Personalized written support",
+      "blurb": "Four weeks of written, asynchronous support while you put a plan in place.",
+      "price": "$97",
+      "priceNote": "4 weeks",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/async-support",
+      "cta": "Add 4 weeks of support",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:async-support",
+      "fulfillment": "Async",
+      "rights": "Owned service",
+      "placements": {
+        "withmespc": "support"
+      }
+    },
+    {
+      "id": "withme-reset",
+      "name": "Five-Minute Starting Reset",
+      "kind": "Free printable",
+      "blurb": "Choose one everyday moment and a next step that fits your energy. Sent to your inbox.",
+      "price": "Free",
+      "priceNote": "email signup",
+      "where": "Mindful W/ME email (Kit)",
+      "url": "https://mindful-offers.netlify.app/withme/reset/",
+      "cta": "Get the free reset",
+      "status": "LIVE",
+      "source": "Kit form",
+      "canonical": "kit:withme-reset",
+      "fulfillment": "Email",
+      "rights": "Owned",
+      "placements": {
+        "withmespc": "free",
+        "adhdspc": "free"
+      }
+    },
+    {
+      "id": "stuck-tool",
+      "name": "Start When You're Stuck",
+      "kind": "Free interactive tool",
+      "blurb": "One question and one next step for when you can't start, can't choose, missed something or feel overloaded.",
+      "price": "Free",
+      "priceNote": "",
+      "where": "Tally",
+      "url": "https://tally.so/r/6D8PZO",
+      "cta": "Take the one-question check",
+      "status": "LIVE",
+      "source": "Tally",
+      "canonical": "tally:6D8PZO",
+      "fulfillment": "Instant",
+      "rights": "Owned",
+      "placements": {
+        "adhdspc": "free",
+        "planspc": "free",
+        "withmespc": "free"
+      }
+    },
+    {
+      "id": "sensory-self-care-plan",
+      "name": "Mindful Sensory Self-Care Plan",
+      "kind": "Personalized plan",
+      "blurb": "A sensory self-care plan built around your needs, spaces and routines.",
+      "price": "$197",
+      "priceNote": "",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/sensory-self-care-plan",
+      "cta": "Build my self-care plan",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:sensory-self-care-plan",
+      "fulfillment": "Async",
+      "rights": "Owned service",
+      "placements": {
+        "sensoryspc": "plans"
+      }
+    },
+    {
+      "id": "regulation-station-plan",
+      "name": "Regulation Station Plan",
+      "kind": "Personalized plan",
+      "blurb": "A custom plan for a calm corner or regulation station in your home, classroom, office or venue.",
+      "price": "$297",
+      "priceNote": "",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/regulation-station-plan",
+      "cta": "Plan my regulation station",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:regulation-station-plan",
+      "fulfillment": "Async",
+      "rights": "Owned service",
+      "placements": {
+        "sensoryspc": "plans",
+        "kitspc": "plans",
+        "breathspc": "adapt"
+      }
+    },
+    {
+      "id": "white-label-regulation-kit",
+      "name": "White-label Regulation Kit",
+      "kind": "Organizational digital package",
+      "blurb": "A branded calm-space plan your team can roll out across every room or site.",
+      "price": "$1,500",
+      "priceNote": "digital package for up to 3 room types; physical items not included",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/white-label-regulation-kit",
+      "cta": "Start the kit",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:white-label-regulation-kit",
+      "fulfillment": "Async, digital",
+      "rights": "Owned, licensed to buyer",
+      "placements": {
+        "kitspc": "org",
+        "sensoryspc": "org"
+      }
+    },
+    {
+      "id": "digital-accessibility-plan",
+      "name": "Digital Accessibility Functional Plan",
+      "kind": "Personalized plan",
+      "blurb": "A functional plan for phones, computers and focus.",
+      "price": "$197",
+      "priceNote": "",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/digital-accessibility-plan",
+      "cta": "Plan my digital setup",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:digital-accessibility-plan",
+      "fulfillment": "Async",
+      "rights": "Owned service",
+      "placements": {
+        "planspc": "next"
+      }
+    },
+    {
+      "id": "iep-integration-roadmap",
+      "name": "IEP Sensory & Creative Integration Roadmap",
+      "kind": "Personalized roadmap",
+      "blurb": "A sensory and creative integration roadmap for a student's school plan or IEP.",
+      "price": "$297",
+      "priceNote": "",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/iep-integration-roadmap",
+      "cta": "Start a student roadmap",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:iep-integration-roadmap",
+      "fulfillment": "Async",
+      "rights": "Owned service",
+      "placements": {
+        "planspc": "next"
+      }
+    },
+    {
+      "id": "airri-snapshot",
+      "name": "AIRRI Snapshot + Readiness Roadmap",
+      "kind": "Assessment and roadmap",
+      "blurb": "An accessibility, sensory and engagement assessment with a personalized 30-day Readiness Roadmap, delivered instantly.",
+      "price": "$197",
+      "priceNote": "",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/airri-snapshot",
+      "cta": "Start an AIRRI Snapshot",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:airri-snapshot",
+      "fulfillment": "Automatic",
+      "rights": "Owned",
+      "placements": {
+        "planspc": "next"
+      }
+    },
+    {
+      "id": "professional-resource-library",
+      "name": "Professional Resource Library",
+      "kind": "Professional package",
+      "blurb": "A ready-to-share library of resources, media, playlists and handouts for your clients, students, team or community.",
+      "price": "$397",
+      "priceNote": "",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/professional-resource-library",
+      "cta": "Build my library",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:professional-resource-library",
+      "fulfillment": "Async",
+      "rights": "Owned, licensed to buyer",
+      "placements": {
+        "libraryspc": "pro"
+      }
+    },
+    {
+      "id": "dfy-resource-library",
+      "name": "Done-for-you Resource Library",
+      "kind": "Organizational service",
+      "blurb": "A curated, organized resource library built for your clients, students or staff, ready to share.",
+      "price": "$1,200",
+      "priceNote": "",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/dfy-resource-library",
+      "cta": "Build our library",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:dfy-resource-library",
+      "fulfillment": "Async",
+      "rights": "Owned, licensed to buyer",
+      "placements": {
+        "libraryspc": "org"
+      }
+    },
+    {
+      "id": "branded-toolkit-license",
+      "name": "Branded Toolkit License: Less to Carry",
+      "kind": "Organizational license",
+      "blurb": "The Less to Carry toolkit with your logo, licensed for your clients, students or staff.",
+      "price": "$750",
+      "priceNote": "one organization",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/branded-toolkit-license",
+      "cta": "License the toolkit",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:branded-toolkit-license",
+      "fulfillment": "Async, digital",
+      "rights": "Owned, licensed to buyer",
+      "placements": {
+        "libraryspc": "org",
+        "kitspc": "org"
+      }
+    },
+    {
+      "id": "training-license",
+      "name": "Neuroinclusive Training License",
+      "kind": "Organizational license",
+      "blurb": "A captioned neuroinclusive staff training with a facilitator guide and branded slides your team can run any time.",
+      "price": "$997/year",
+      "priceNote": "renews yearly",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/training-license",
+      "cta": "License the training",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:training-license",
+      "fulfillment": "Async, digital",
+      "rights": "Owned, licensed to buyer",
+      "placements": {
+        "libraryspc": "org"
+      }
+    },
+    {
+      "id": "branded-audio-pack",
+      "name": "Branded Audio Pack License",
+      "kind": "Organizational license",
+      "blurb": "A licensed pack of regulation and mindfulness audio with your intro, for a waiting room, app or clients.",
+      "price": "$997/year",
+      "priceNote": "",
+      "where": "Checkout on Mindful Offers (Stripe)",
+      "url": "https://mindful-offers.netlify.app/o/branded-audio-pack",
+      "cta": "License an audio pack",
+      "status": "LIVE",
+      "source": "Mindful Offers / Stripe",
+      "canonical": "offers:branded-audio-pack",
+      "fulfillment": "Async, digital",
+      "rights": "Owned, licensed to buyer",
+      "placements": {
+        "breathspc": "adapt",
+        "libraryspc": "org"
+      }
+    },
+    {
+      "id": "it-regulate-and-rest",
+      "name": "Regulate and Rest",
+      "kind": "Free guided practice",
+      "blurb": "A guided regulation practice by Michelle Swerin.",
+      "price": "Free",
+      "priceNote": "",
+      "where": "Plays on Insight Timer",
+      "url": "https://insighttimer.com/createspacemeditate/guided-meditations/regulate-and-rest",
+      "cta": "Listen on Insight Timer",
+      "status": "LIVE",
+      "source": "Insight Timer",
+      "canonical": "media:it-regulate-and-rest",
+      "fulfillment": "Stream",
+      "rights": "Owned",
+      "placements": {
+        "breathspc": "listen",
+        "withmespc": "listen"
+      }
+    },
+    {
+      "id": "it-self-compassion",
+      "name": "Self-Compassion Meditation",
+      "kind": "Free guided practice",
+      "blurb": "A guided self-compassion practice by Michelle Swerin.",
+      "price": "Free",
+      "priceNote": "",
+      "where": "Plays on Insight Timer",
+      "url": "https://insighttimer.com/createspacemeditate/guided-meditations/self-compassion-meditation-30",
+      "cta": "Listen on Insight Timer",
+      "status": "LIVE",
+      "source": "Insight Timer",
+      "canonical": "media:it-self-compassion",
+      "fulfillment": "Stream",
+      "rights": "Owned",
+      "placements": {
+        "affirmspc": "listen",
+        "breathspc": "listen"
+      }
+    },
+    {
+      "id": "it-loving-kindness",
+      "name": "Bite-Sized Meditation: Nurturing Loving-Kindness",
+      "kind": "Free guided practice",
+      "blurb": "A short loving-kindness practice by Michelle Swerin.",
+      "price": "Free",
+      "priceNote": "",
+      "where": "Plays on Insight Timer",
+      "url": "https://insighttimer.com/createspacemeditate/guided-meditations/bite-sized-meditation-nurturing-loving-kindness",
+      "cta": "Listen on Insight Timer",
+      "status": "LIVE",
+      "source": "Insight Timer",
+      "canonical": "media:it-loving-kindness",
+      "fulfillment": "Stream",
+      "rights": "Owned",
+      "placements": {
+        "affirmspc": "listen",
+        "withmespc": "listen"
+      }
+    },
+    {
+      "id": "aura-morning-energy",
+      "name": "Morning Energy Affirmation",
+      "kind": "Free guided practice",
+      "blurb": "A short morning affirmation track by Michelle Swerin.",
+      "price": "Free",
+      "priceNote": "",
+      "where": "Plays on Aura",
+      "url": "https://www.aurahealth.io/track/morning-energy-affirmation-michelle-swerin",
+      "cta": "Listen on Aura",
+      "status": "LIVE",
+      "source": "Aura",
+      "canonical": "media:aura-morning-energy",
+      "fulfillment": "Stream",
+      "rights": "Owned",
+      "placements": {
+        "affirmspc": "listen",
+        "mantraspc": "listen"
+      }
+    },
+    {
+      "id": "adhd-tax-reset-kit",
+      "name": "ADHD Tax Reset Kit",
+      "kind": "Digital toolkit",
+      "blurb": "Recovery checklist, scripts and a 7-day catch-up plan.",
+      "price": "",
+      "priceNote": "",
+      "where": "",
+      "url": "",
+      "cta": "",
+      "status": "IN_PRODUCTION",
+      "source": "PDF in Google Drive",
+      "canonical": "",
+      "fulfillment": "Needs checkout and delivery",
+      "rights": "Owned",
+      "note": "Built 2026-10-22; $37 proposed, not approved; no checkout.",
+      "placements": {
+        "adhdspc": "shop"
+      }
+    },
+    {
+      "id": "school-morning-sensory-reset-kit",
+      "name": "School Morning Sensory Reset Kit",
+      "kind": "Digital kit",
+      "blurb": "Guide, routine strip, clothing checklist, night-before list, reset card and out-the-door card.",
+      "price": "",
+      "priceNote": "",
+      "where": "",
+      "url": "",
+      "cta": "",
+      "status": "IN_PRODUCTION",
+      "source": "PDF (SKU MS-SMR-001)",
+      "canonical": "",
+      "fulfillment": "Ecwid product pending",
+      "rights": "Owned",
+      "note": "Airtable Assets: Needs Michelle review; $36 Ecwid product pending.",
+      "placements": {
+        "kitspc": "digital",
+        "sensoryspc": "shop"
+      }
+    },
+    {
+      "id": "ecwid-calm-spaces",
+      "name": "Calm & Sensory Spaces (Ecwid)",
+      "kind": "Shop collection",
+      "blurb": "",
+      "price": "",
+      "priceNote": "",
+      "where": "MindfulSPC.com",
+      "url": "https://www.mindfulspc.com/products/calm--sensory-spaces",
+      "cta": "",
+      "status": "CATALOGED",
+      "source": "Ecwid",
+      "canonical": "ecwid:calm--sensory-spaces",
+      "fulfillment": "Ecwid",
+      "rights": "",
+      "note": "Category is live but showed 0 products on 2026-10-23.",
+      "placements": {
+        "sensoryspc": "shop"
+      }
+    },
+    {
+      "id": "ecwid-self-care",
+      "name": "Mindful Living & Self-Care (Ecwid)",
+      "kind": "Shop collection",
+      "blurb": "",
+      "price": "",
+      "priceNote": "",
+      "where": "MindfulSPC.com",
+      "url": "https://www.mindfulspc.com/products/mindful-living--self-care",
+      "cta": "",
+      "status": "CATALOGED",
+      "source": "Ecwid",
+      "canonical": "ecwid:mindful-living--self-care",
+      "fulfillment": "Ecwid",
+      "rights": "",
+      "note": "Category is live but showed 0 products on 2026-10-23.",
+      "placements": {
+        "sensoryspc": "shop"
+      }
+    },
+    {
+      "id": "ecwid-kids-classrooms",
+      "name": "Mindful Kids & Classrooms (Ecwid)",
+      "kind": "Shop collection",
+      "blurb": "",
+      "price": "",
+      "priceNote": "",
+      "where": "MindfulSPC.com",
+      "url": "https://www.mindfulspc.com/products/mindful-kids--classrooms",
+      "cta": "",
+      "status": "CATALOGED",
+      "source": "Ecwid",
+      "canonical": "ecwid:mindful-kids--classrooms",
+      "fulfillment": "Ecwid",
+      "rights": "",
+      "note": "Category is live but showed 0 products on 2026-10-23.",
+      "placements": {
+        "sensoryspc": "shop"
+      }
+    },
+    {
+      "id": "ecwid-pets-comfort",
+      "name": "Mindful Pets & Comfort (Ecwid)",
+      "kind": "Shop collection",
+      "blurb": "",
+      "price": "",
+      "priceNote": "",
+      "where": "MindfulSPC.com",
+      "url": "https://www.mindfulspc.com/products/mindful-pets--comfort",
+      "cta": "",
+      "status": "CATALOGED",
+      "source": "Ecwid",
+      "canonical": "ecwid:mindful-pets--comfort",
+      "fulfillment": "Ecwid",
+      "rights": "",
+      "note": "Category is live but showed 0 products on 2026-10-23.",
+      "placements": {
+        "sensoryspc": "shop"
+      }
+    }
+  ]
+}
