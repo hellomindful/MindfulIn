@@ -36,3 +36,9 @@
 /engines/ /organizations 302
 /ip /organizations 302
 /ip/ /organizations 302
+
+/workshops /workshops.html 200
+/workshops/ /workshops.html 200
+/private-workshops /private-workshops.html 200
+/private-workshops/ /private-workshops.html 200
+/workshop-thank-you /workshop-thank-you.html 200
