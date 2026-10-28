@@ -193,25 +193,25 @@
     {
       "id": "mantraspc",
       "slug": "mantraspc",
-      "name": "MantraSpace",
+      "name": "MantraSPC",
       "tagline": "Original affirmation art and print-on-demand designs.",
       "pathway": "Shop & Design",
       "readiness": "Awaiting products",
       "hero": {
         "title": "Original art with words worth keeping in view",
-        "lede": "MantraSpace is the home for Mindful Innovations' original affirmation art: prints, stickers, apparel, stationery and gifts. Printed products are being prepared and are not on sale yet.",
+        "lede": "MantraSPC is the home for Mindful Innovations' original affirmation art: prints, stickers, apparel, stationery and gifts. Printed products are being prepared and are not on sale yet.",
         "image": "/assets/images/face-coral.png",
         "decorative": true,
         "width": 240,
         "height": 240,
         "alt": ""
       },
-      "metaDescription": "MantraSpace original affirmation art from Mindful Innovations: prints, stickers, apparel and gifts in development, plus custom artwork for organizations.",
+      "metaDescription": "MantraSPC original affirmation art from Mindful Innovations: prints, stickers, apparel and gifts in development, plus custom artwork for organizations.",
       "audience": "For people who want encouraging, functional art for a home, classroom or workspace, and for organizations that want custom affirming visuals.",
       "groups": [
         {
           "key": "pod",
-          "title": "Shop MantraSpace products",
+          "title": "Shop MantraSPC products",
           "note": "Published Printify and Etsy listings appear here."
         },
         {
@@ -249,7 +249,7 @@
           "status": "in-development"
         },
         {
-          "name": "MantraSpace original collections",
+          "name": "MantraSPC original collections",
           "status": "in-development"
         }
       ],
