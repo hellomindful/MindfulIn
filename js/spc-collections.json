@@ -260,9 +260,9 @@
         "url": "/organizations#opportunity-brief"
       },
       "secondary": {
-        "text": "Looking for visual cues?",
-        "label": "Visit AffirmSPC",
-        "url": "/affirmspc"
+        "text": "Explore the MantraSPC collection and connected offers.",
+        "label": "All MantraSPC links",
+        "url": "https://linktr.ee/mantraspc"
       },
       "related": [
         "affirmspc",
