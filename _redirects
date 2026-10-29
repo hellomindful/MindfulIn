@@ -1,4 +1,4 @@
-/funnel/*  /404.html  404
+/funnel/*  /404.html  404!
 /links https://mindful-offers.netlify.app/start/ 200!
 /links/ https://mindful-offers.netlify.app/start/ 200!
 /links/* https://mindful-offers.netlify.app/start/:splat 200!
