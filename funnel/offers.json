@@ -1,0 +1,488 @@
+{
+  "schema": "mindful-funnel/1",
+  "campaign": {
+    "slug": "holiday",
+    "name": "Holiday 2026",
+    "hubTitle": "Calmer holidays for the people you host, gift and care for",
+    "hubLede": "Three ready-to-book holiday offers from Mindful:In and Mindful Edits: sensory-friendly event support for organizations, bulk sensory stockings for teams and clients, and curated gifts for the hard-to-shop-for person on your list.",
+    "contactEmail": "hello@mindfulin.com",
+    "responseTime": "within 1 business day",
+    "leadMagnet": {
+      "slug": "sensory-friendly-event-checklist",
+      "name": "Sensory-Friendly Holiday Event Checklist",
+      "promise": "A one-page, 20-point checklist you can use to make any holiday party, open house or program easier for guests who get overwhelmed.",
+      "formName": "holiday-checklist"
+    }
+  },
+  "offers": [
+    {
+      "slug": "sensory-friendly-events",
+      "status": "LIVE_TEST",
+      "pathway": "Consult & Learn",
+      "brand": "Mindful:In",
+      "audience": "organizations",
+      "cardLabel": "For organizations",
+      "name": "Sensory-Friendly Holiday Event Setup",
+      "buyer": "Schools, libraries, churches, youth programs, clinics and businesses hosting a holiday party, open house or program",
+      "headline": "Make your holiday event easier for guests who get overwhelmed",
+      "lede": "Without redesigning the whole event. You get a quiet space plan, signage, a guest “what to expect” page and a staff tip sheet, ready before your doors open.",
+      "image": "/assets/images/holiday/holiday-quiet-space.jpg",
+      "imageAlt": "A quiet corner at a holiday open house with floor cushions, a low lamp, fidget toys and earmuffs, with the party room softly blurred behind it",
+      "orderBy": "Book by November 20 for December events",
+      "scarcity": "5 founding spots at these prices this season",
+      "bonus": "",
+      "payment": "Pay in full for the Quick Kit. Event Setup and On-Site packages start with a 50% deposit; the balance is due before delivery.",
+      "outcomes": [
+        "Guests who need a break know exactly where to go",
+        "Families know what to expect before they arrive, so fewer people skip it",
+        "Staff and volunteers know what to say and do when someone is overwhelmed",
+        "You can say, specifically, how your event is more welcoming"
+      ],
+      "steps": [
+        [
+          "Choose a package",
+          "Pick the level of support that fits your event and reserve it with the form below."
+        ],
+        [
+          "Send your event details",
+          "Date, venue, expected guests and anything you already have planned. Written answers are all we need."
+        ],
+        [
+          "Get your kit or plan",
+          "Your materials arrive ready to print and post, customized with your event name."
+        ],
+        [
+          "Host a calmer event",
+          "Set up the quiet space, post the signs, send the guest page and brief your team."
+        ]
+      ],
+      "tiers": [
+        {
+          "id": "quick-kit",
+          "name": "Quick Kit",
+          "price": 297,
+          "priceNote": "one-time",
+          "delivery": "Digital kit in 3 business days",
+          "includes": [
+            "Quiet-space setup guide",
+            "Printable signage set with your event name",
+            "Guest “what to expect” page template",
+            "One-page staff and volunteer tip sheet"
+          ],
+          "checkoutUrl": "",
+          "featured": false
+        },
+        {
+          "id": "event-setup",
+          "name": "Event Setup",
+          "price": 697,
+          "priceNote": "50% deposit to reserve",
+          "delivery": "Plan and materials in 5 business days",
+          "includes": [
+            "Everything in the Quick Kit",
+            "Written review of your event plan with specific changes",
+            "Quiet-space layout for your actual venue",
+            "Guest “what to expect” page written for you",
+            "One round of written revisions"
+          ],
+          "checkoutUrl": "",
+          "featured": true
+        },
+        {
+          "id": "on-site",
+          "name": "Setup + On-Site",
+          "price": 997,
+          "priceNote": "50% deposit to reserve",
+          "delivery": "Twin Cities events only",
+          "includes": [
+            "Everything in Event Setup",
+            "Michelle sets up the quiet space at your venue (up to 2 hours)",
+            "Quick in-person staff briefing before doors open"
+          ],
+          "checkoutUrl": "",
+          "featured": false
+        }
+      ],
+      "fields": [
+        {
+          "name": "organization",
+          "label": "Organization",
+          "type": "text",
+          "required": true,
+          "autocomplete": "organization"
+        },
+        {
+          "name": "event_name",
+          "label": "Event name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "event_date",
+          "label": "Event date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "name": "event_city",
+          "label": "Event city",
+          "type": "text",
+          "required": true,
+          "autocomplete": "address-level2"
+        },
+        {
+          "name": "guests",
+          "label": "Expected guests",
+          "type": "select",
+          "required": false,
+          "options": [
+            "Under 50",
+            "50–150",
+            "150–300",
+            "300+"
+          ]
+        },
+        {
+          "name": "notes",
+          "label": "Anything we should know?",
+          "type": "textarea",
+          "required": false
+        }
+      ],
+      "faq": [
+        [
+          "Is this an ADA compliance review?",
+          "No. This is practical guest-experience support: quiet space, signage, communication and staff guidance. It is not legal advice or ADA certification."
+        ],
+        [
+          "Do we need a meeting?",
+          "No. Everything can be done in writing. A short call is available for Event Setup and On-Site packages if you prefer one."
+        ],
+        [
+          "What if our event is in early December?",
+          "Book now. The Quick Kit arrives in 3 business days, and Event Setup in 5."
+        ],
+        [
+          "Can we pay by invoice or purchase order?",
+          "Yes. Choose your package, submit the form and note “invoice” or your PO details. You’ll get an invoice within 1 business day."
+        ]
+      ],
+      "boundary": "Practical guest-experience improvements, not ADA certification or legal advice.",
+      "crossSell": "bulk-sensory-stockings"
+    },
+    {
+      "slug": "bulk-sensory-stockings",
+      "status": "LIVE_TEST",
+      "pathway": "Shop & Design",
+      "brand": "MindfulSPC",
+      "audience": "organizations",
+      "cardLabel": "For teams and clients",
+      "name": "Desk Reset Sensory Stockings, in bulk",
+      "buyer": "Therapy and OT clinics, schools, HR and wellness teams, and family-serving organizations gifting staff or clients",
+      "headline": "Holiday gifts your staff and clients will actually use",
+      "lede": "Desk Reset stockings filled with calming, hands-busy sensory items and a short self-care card. Ordered in packs of 10, 25 or 50, packed and delivered to your door.",
+      "image": "/assets/images/holiday/desk-reset-stocking.jpg",
+      "imageAlt": "A pale periwinkle felt stocking on a wooden desk with a slow-rise squishy ball, a textured fidget, a roll-on bottle, a tea sachet, a small card and an eye mask",
+      "imageCaption": "Sample styling. Exact items vary with supply; every stocking includes the item types listed below.",
+      "orderBy": "Order by November 20 for early-December delivery",
+      "scarcity": "Limited packing capacity this season",
+      "bonus": "Founding bonus: free custom logo note cards on orders placed by November 7",
+      "payment": "Reserve with a 50% deposit. The balance is due before your stockings ship.",
+      "outcomes": [
+        "A gift people keep on their desk, not one they toss in a drawer",
+        "A quiet signal that your organization takes regulation and wellbeing seriously",
+        "One order, one invoice, no shopping or packing on your end"
+      ],
+      "inside": [
+        "1 slow-rise squishy",
+        "1 textured or click fidget",
+        "1 aromatherapy item",
+        "1 tea or cocoa packet",
+        "1 comfort item (eye mask or soft socks)",
+        "1 printed 60-second reset card"
+      ],
+      "steps": [
+        [
+          "Pick your pack size",
+          "10, 25 or 50 stockings. Need more than 50? Note it in the form."
+        ],
+        [
+          "Reserve with a deposit",
+          "Tell us where and when to deliver. Add logo note cards if you want them."
+        ],
+        [
+          "We source and pack",
+          "Every stocking is packed by hand with the same item types and a reset card."
+        ],
+        [
+          "Delivered to you",
+          "Shipped or dropped off (Twin Cities) in early December."
+        ]
+      ],
+      "tiers": [
+        {
+          "id": "pack-10",
+          "name": "10 stockings",
+          "price": 380,
+          "priceNote": "$38 each",
+          "delivery": "Early December",
+          "includes": [
+            "10 Desk Reset stockings",
+            "Reset card in every stocking",
+            "Shipping or local drop-off quoted with your invoice"
+          ],
+          "checkoutUrl": "",
+          "featured": false
+        },
+        {
+          "id": "pack-25",
+          "name": "25 stockings",
+          "price": 850,
+          "priceNote": "$34 each",
+          "delivery": "Early December",
+          "includes": [
+            "25 Desk Reset stockings",
+            "Reset card in every stocking",
+            "Shipping or local drop-off quoted with your invoice"
+          ],
+          "checkoutUrl": "",
+          "featured": true
+        },
+        {
+          "id": "pack-50",
+          "name": "50 stockings",
+          "price": 1500,
+          "priceNote": "$30 each",
+          "delivery": "Early December",
+          "includes": [
+            "50 Desk Reset stockings",
+            "Reset card in every stocking",
+            "Shipping or local drop-off quoted with your invoice"
+          ],
+          "checkoutUrl": "",
+          "featured": false
+        }
+      ],
+      "addOns": [
+        {
+          "id": "logo-cards",
+          "name": "Custom logo note cards",
+          "price": "$10 per 10 cards"
+        }
+      ],
+      "fields": [
+        {
+          "name": "organization",
+          "label": "Organization",
+          "type": "text",
+          "required": true,
+          "autocomplete": "organization"
+        },
+        {
+          "name": "delivery_date",
+          "label": "Deliver by",
+          "type": "date",
+          "required": true
+        },
+        {
+          "name": "delivery_address",
+          "label": "Delivery address",
+          "type": "textarea",
+          "required": true,
+          "autocomplete": "street-address"
+        },
+        {
+          "name": "logo_cards",
+          "label": "Add custom logo note cards?",
+          "type": "select",
+          "required": false,
+          "options": [
+            "No thanks",
+            "Yes, add logo cards"
+          ]
+        },
+        {
+          "name": "notes",
+          "label": "Anything we should know? (PO number, larger quantity, allergies)",
+          "type": "textarea",
+          "required": false
+        }
+      ],
+      "waitlist": "Kids Sensory Stockings are coming once every item is age-labeled and safety-certified. Mention “kids” in the notes to be first on the list.",
+      "faq": [
+        [
+          "What exactly is inside?",
+          "Every stocking includes the six item types listed above. Brands vary with supply, so we describe items by type rather than promise a specific brand."
+        ],
+        [
+          "Can we order more than 50?",
+          "Yes. Choose 50, then note your total in the form and you’ll get a volume quote."
+        ],
+        [
+          "Can we pay by invoice or PO?",
+          "Yes. Note your PO in the form. A 50% deposit reserves your packing slot."
+        ],
+        [
+          "Are these safe for kids?",
+          "The Desk Reset stocking is designed for adults. A kids version is on the way once every item is age-labeled and safety-certified."
+        ]
+      ],
+      "boundary": "Desk Reset stockings are designed for adults and are not toys for young children.",
+      "crossSell": "sensory-friendly-events"
+    },
+    {
+      "slug": "gift-edit",
+      "status": "LIVE_TEST",
+      "pathway": "Shop & Design",
+      "brand": "Mindful Edits",
+      "audience": "individuals",
+      "cardLabel": "For your gift list",
+      "name": "The Gift Edit",
+      "buyer": "Anyone shopping for a sensory-sensitive, neurodivergent or simply hard-to-shop-for person",
+      "headline": "Tell me about them. I’ll find the gift.",
+      "lede": "Answer a few written questions about the person you’re shopping for. You get a curated gift plan you can buy from in one sitting, or I buy, wrap and ship it for you.",
+      "image": "/assets/images/holiday/gift-edit.jpg",
+      "imageAlt": "A gift box in pale blue paper with a navy ribbon beside a blank gift plan card, a pen, greenery, wool socks, a lap pad and a sketchbook",
+      "orderBy": "Built & Shipped: order by November 20 for Hanukkah, December 5 for Christmas. Gift Plans: order by December 15.",
+      "scarcity": "",
+      "bonus": "",
+      "payment": "Payment is due before work starts. If your plan doesn’t feel right, reply and I’ll revise it once at no charge.",
+      "outcomes": [
+        "8–12 picks chosen for this one person, not a generic gift guide",
+        "A short “why this fits” for each pick, including sensory notes",
+        "No more scrolling, second-guessing or returns"
+      ],
+      "steps": [
+        [
+          "Pick a tier",
+          "A Gift Plan you buy from yourself, or Built & Shipped."
+        ],
+        [
+          "Tell me about them",
+          "Interests, sensory likes and dislikes, age range, budget and timing."
+        ],
+        [
+          "Get your plan",
+          "Delivered by email within 3 business days, with links and a presentation idea."
+        ],
+        [
+          "Give it",
+          "Buy from the plan, or for Built & Shipped, it arrives wrapped and ready."
+        ]
+      ],
+      "tiers": [
+        {
+          "id": "gift-plan",
+          "name": "Gift Plan",
+          "price": 39,
+          "priceNote": "per recipient",
+          "delivery": "By email in 3 business days",
+          "includes": [
+            "8–12 curated picks with links",
+            "“Why this fits” note for each pick",
+            "One wrapping or presentation idea",
+            "Extra recipients +$29 each (up to 4)"
+          ],
+          "checkoutUrl": "",
+          "featured": true
+        },
+        {
+          "id": "built-shipped",
+          "name": "Built & Shipped",
+          "price": 99,
+          "priceNote": "curation fee + your gift budget",
+          "delivery": "Shipped within the US",
+          "includes": [
+            "Everything in the Gift Plan",
+            "I buy, wrap and ship the gift",
+            "Gift budget of $50, $75, $100 or $150",
+            "Handwritten-style gift note"
+          ],
+          "checkoutUrl": "",
+          "featured": false
+        }
+      ],
+      "fields": [
+        {
+          "name": "recipient",
+          "label": "Who is the gift for? (first name or relationship)",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "age_range",
+          "label": "Their age range",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Under 5",
+            "5–12",
+            "13–17",
+            "18–30",
+            "31–60",
+            "60+"
+          ]
+        },
+        {
+          "name": "budget",
+          "label": "Gift budget",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Under $50",
+            "$50",
+            "$75",
+            "$100",
+            "$150",
+            "Over $150"
+          ]
+        },
+        {
+          "name": "interests",
+          "label": "What do they love? Hobbies, favorite things, what they talk about",
+          "type": "textarea",
+          "required": true
+        },
+        {
+          "name": "sensory",
+          "label": "Sensory likes and dislikes (textures, sounds, scents, light)",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "name": "need_by",
+          "label": "Need by",
+          "type": "date",
+          "required": true
+        },
+        {
+          "name": "ship_to",
+          "label": "Ship-to address (Built & Shipped only)",
+          "type": "textarea",
+          "required": false,
+          "autocomplete": "street-address"
+        }
+      ],
+      "faq": [
+        [
+          "What if I don’t know their sensory preferences?",
+          "Share what you do know. I’ll lean toward gentle, adjustable picks and note anything worth checking."
+        ],
+        [
+          "Are the links affiliate links?",
+          "Some may be. Picks are chosen for the person first, never for the commission."
+        ],
+        [
+          "Can I do more than one person?",
+          "Yes. Add up to 4 recipients at $29 each and describe each person in the notes."
+        ],
+        [
+          "What if the plan misses?",
+          "Reply to your plan email and I’ll revise it once at no charge."
+        ]
+      ],
+      "boundary": "",
+      "crossSell": "bulk-sensory-stockings"
+    }
+  ]
+}
