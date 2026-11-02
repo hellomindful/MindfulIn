@@ -28,7 +28,7 @@ node funnel/build.mjs
 
 With a link, buyers see a **Pay securely** button the moment they submit. Without one, the thank-you page promises a payment link or invoice within 1 business day, so the funnel still works today.
 
-Run one real test purchase per link before promoting it.
+Test each payment path with test cards in Stripe test mode before promoting it. Check the live destination separately without submitting a real-card test payment. Use Gumroad's supported creator test process or a 100%-off code to check files and emails; a free order does not verify paid processing. Monitor the first genuine customer orders.
 
 ## Get notified of every order
 
@@ -64,6 +64,6 @@ https://mindfulin.com/holiday/bulk-sensory-stockings.html?utm_source=facebook&ut
 - [ ] Prices, deadlines and deliverables checked
 - [ ] Form notification turned on
 - [ ] Test submission received with campaign fields filled in
-- [ ] Payment link added and one real test purchase completed (or invoice process ready)
+- [ ] Payment link added, test-mode payment and delivery checked, and live destination verified without a real-card test payment (or invoice process ready)
 - [ ] Follow-up emails loaded (EMAILS.md)
 - [ ] Tracked link created for each channel
