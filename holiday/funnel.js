@@ -25,7 +25,7 @@
   var track = function (event, detail) {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push(Object.assign({ event: event }, detail || {}));
-    if (window.fbq) { try { window.fbq("track", event === "generate_lead" ? "Lead" : event === "reserve_order" ? "InitiateCheckout" : "ViewContent", detail || {}); } catch (e) {} }
+    if (window.fbq) { try { window.fbq("track", event === "generate_lead" ? "Lead" : event === "reserve_order" ? "Lead" : "ViewContent", detail || {}); } catch (e) {} }
   };
 
   // "Choose X" buttons preselect the tier in the order form.
@@ -74,8 +74,8 @@
     var o = window.FUNNEL.offers[params.get("o")];
     var t = o && o.tiers[params.get("t")];
     if (o && t) {
-      box.querySelector("[data-t-title]").textContent = "Thank you. Your " + o.name + " (" + t.name + ") is reserved.";
-      box.querySelector("[data-t-summary]").textContent = "We have your details. You’ll get a confirmation " + window.FUNNEL.responseTime + ".";
+      box.querySelector("[data-t-title]").textContent = "Thank you. We have your request for " + o.name + " (" + t.name + ").";
+      box.querySelector("[data-t-summary]").textContent = "This form has not taken a payment or confirmed a booking. We’ll reply " + window.FUNNEL.responseTime + " to confirm the work and next steps.";
       if (t.checkoutUrl) {
         box.querySelector("[data-t-pay]").hidden = false;
         box.querySelector("[data-t-pay-link]").href = t.checkoutUrl;
@@ -90,7 +90,7 @@
         var im = cs.querySelector("[data-t-cross-img]"); im.src = c.image; im.alt = "";
         cs.querySelector("[data-t-cross-link]").href = "/holiday/" + o.crossSell + ".html";
       }
-      track("order_reserved", { offer: params.get("o"), tier: params.get("t"), value: t.price });
+      track("request_summary_viewed", { offer: params.get("o"), tier: params.get("t"), value: t.price });
     }
   }
 })();

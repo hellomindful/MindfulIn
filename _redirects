@@ -17,6 +17,8 @@
 /shop/* https://mindful-offers.netlify.app/spc/:splat 200!
 /home  /index.html  301
 /shop-mindfulspc  https://www.mindfulspc.com  301
+/paws https://mindful-offers.netlify.app/o/mindful-paws-picks/ 302
+/paws/ https://mindful-offers.netlify.app/o/mindful-paws-picks/ 302
 /consulting  /consulting.html  200
 /consulting/  /consulting.html  200
 

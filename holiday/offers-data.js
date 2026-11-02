@@ -1,5 +1,5 @@
 window.FUNNEL = {
-  "responseTime": "within 1 business day",
+  "responseTime": "within 2 business days",
   "offers": {
     "sensory-friendly-events": {
       "name": "Sensory-Friendly Holiday Event Setup",
