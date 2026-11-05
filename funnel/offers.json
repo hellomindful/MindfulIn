@@ -4,7 +4,7 @@
     "slug": "holiday",
     "name": "Holiday 2026",
     "hubTitle": "Calmer holidays for the people you host, gift and care for",
-    "hubLede": "Three ready-to-book holiday offers from Mindful:In and Mindful Edits: sensory-friendly event support for organizations, bulk sensory stockings for teams and clients, and curated gifts for the hard-to-shop-for person on your list.",
+    "hubLede": "Three ready-to-book holiday offers from Mindful:In and Mindful Empowered: sensory-friendly event support for organizations, bulk sensory stockings for teams and clients, and curated gifts for the hard-to-shop-for person on your list.",
     "contactEmail": "hello@mindfulin.com",
     "responseTime": "within 1 business day",
     "leadMagnet": {
@@ -18,7 +18,7 @@
     {
       "slug": "sensory-friendly-events",
       "status": "LIVE_TEST",
-      "pathway": "Consult & Learn",
+      "pathway": "Access",
       "brand": "Mindful:In",
       "audience": "organizations",
       "cardLabel": "For organizations",
@@ -173,8 +173,8 @@
     {
       "slug": "bulk-sensory-stockings",
       "status": "LIVE_TEST",
-      "pathway": "Shop & Design",
-      "brand": "MindfulSPC",
+      "pathway": "Impact",
+      "brand": "Mindful:In",
       "audience": "organizations",
       "cardLabel": "For teams and clients",
       "name": "Desk Reset Sensory Stockings, in bulk",
@@ -333,8 +333,8 @@
     {
       "slug": "gift-edit",
       "status": "LIVE_TEST",
-      "pathway": "Shop & Design",
-      "brand": "Mindful Edits",
+      "pathway": "Impact",
+      "brand": "Mindful Empowered",
       "audience": "individuals",
       "cardLabel": "For your gift list",
       "name": "The Gift Edit",
