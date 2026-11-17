@@ -20,7 +20,7 @@ Load these into HubSpot (Automation → Sequences or Workflows), or send manuall
 > Once that's in, here's what happens: [delivery promise from the offer page].
 >
 > Michelle
-> Mindful:In · hello@mindfulin.com
+> Mindful:In · hello@mindfulempowered.com
 
 ## B. Payment reminder (24 hours after A, if unpaid)
 
