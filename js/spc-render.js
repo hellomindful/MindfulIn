@@ -93,7 +93,7 @@
     }
 
     out += '<section><div class="wrap spc-info"><p class="small">Each item is sold and delivered by the destination named on its card. Prices are as listed there on ' +
-      esc(niceDate(data.lastVerified)) + '. Questions or an access need? Email <a href="mailto:hello@mindfulempowered.com">hello@mindfulempowered.com</a>.</p>' +
+      esc(niceDate(data.lastVerified)) + '. Questions or an access need? Email <a href="mailto:hello@mindfulin.com">hello@mindfulin.com</a>.</p>' +
       (c.careNote ? '<p class="small">These are practical, educational resources, not therapy, diagnosis or crisis care. In an emergency call 911, or call or text 988.</p>' : '') +
       '</div></section>';
 

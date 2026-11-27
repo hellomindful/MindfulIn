@@ -49,3 +49,10 @@
 /private-workshops /private-workshops.html 200
 /private-workshops/ /private-workshops.html 200
 /workshop-thank-you /workshop-thank-you.html 200
+
+# Nov 27 2026: unlisted offer pages (linked from the homepage seasonal block)
+/teams /teams.html 200
+/teams/ /teams.html 200
+/2027 /2027.html 200
+/2027/ /2027.html 200
+/request-received /request-received.html 200
